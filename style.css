@@ -861,16 +861,20 @@ body {
         display: block;
     }
 
+    .brutalist-layout-container {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        text-align: left;
+    }
+
     .theme-brutalist #home-btn {
         display: none;
     }
 
     .theme-brutalist #brutalist-header {
-        max-width: 700px;
-        margin: 0 auto;
-        padding: 6rem 2rem 1.5rem;
+        padding: 6rem 0 1.5rem;
         position: relative;
-        text-align: left;
     }
 
     /* ── Music Pill ── */
@@ -1022,9 +1026,7 @@ body {
     }
 
     .brutalist-list-container {
-        max-width: 700px;
-        margin: 0 auto;
-        padding: 0 2rem;
+        padding: 0;
     }
 
     .brutalist-section-title {
@@ -1126,9 +1128,7 @@ body {
 
     /* ── Brutalist Contact Button ───── */
     .brutalist-contact-bar {
-        max-width: 700px;
-        margin: 0 auto;
-        padding: 1.5rem 2rem 3rem;
+        padding: 1.5rem 0 3rem;
     }
 
     .brutalist-contact-btn {
