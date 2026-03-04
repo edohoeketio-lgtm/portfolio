@@ -1053,8 +1053,19 @@ body.theme-brutalist {
     align-items: baseline;
     justify-content: space-between;
     text-decoration: none;
-    color: #000;
-    margin-bottom: 0.25rem;
+    color: inherit;
+    margin-bottom: 0.5rem;
+}
+
+/* Stretched link to make the entire .brutalist-item clickable */
+.brutalist-link::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 .brutalist-item-title {
