@@ -120,8 +120,11 @@
               <span class="brutalist-item-role">lead developer</span>
               <span class="brutalist-item-date">2024 — present</span>
             </a>
-            <p class="brutalist-item-desc">a modern, immersive internet radio platform broadcasting curated frequencies.
-              built with react and real-time audio streaming capabilities.</p>
+            <div class="brutalist-desc-container">
+              <p class="brutalist-item-desc">a modern, immersive internet radio platform broadcasting curated
+                frequencies.
+                built with react and real-time audio streaming capabilities.</p>
+            </div>
             <div class="brutalist-tags">
               <span>React</span><span>TypeScript</span><span>Web Audio</span><span>Vite</span>
             </div>
@@ -135,11 +138,31 @@
               <span class="brutalist-item-title">shp.it</span>
               <span class="brutalist-item-role">creator</span>
             </a>
-            <p class="brutalist-item-desc">share your localhost with anyone instantly. a single CLI command to tunnel
-              your
-              local dev server to a public URL — no CI/CD, no hosting, no config.</p>
+            <div class="brutalist-desc-container">
+              <p class="brutalist-item-desc">share your localhost with anyone instantly. a single CLI command to tunnel
+                your
+                local dev server to a public URL — no CI/CD, no hosting, no config.</p>
+            </div>
             <div class="brutalist-tags">
               <span>Next.js 14</span><span>WebSockets</span><span>Node.js CLI</span><span>Reverse Proxy</span>
+            </div>
+          </div>
+
+          <!-- Spectral Ghost Project -->
+          <div class="brutalist-item" data-preview="/Screenshot.png">
+            <a href="/pages/ghost/index.html" target="_blank" class="brutalist-link">
+              <span class="brutalist-item-title">spectral ghost</span>
+              <span class="brutalist-item-role">creative developer</span>
+              <span class="brutalist-item-date">2026</span>
+            </a>
+            <div class="brutalist-desc-container">
+              <p class="brutalist-item-desc">an interactive 3D spectral ghost that follows your cursor through darkness.
+                features real-time VHS analog decay, bloom post-processing, and a custom assassin's creed-inspired
+                animus control panel.</p>
+            </div>
+            <div class="brutalist-tags">
+              <span>Three.js</span><span>WebGL</span><span>GLSL
+                Shaders</span><span>Tweakpane</span><span>Vite</span><span>Post-Processing</span>
             </div>
           </div>
         </div>
@@ -234,9 +257,25 @@
         <div class="project-header">
           <span class="project-label">02 — Native Utility</span>
           <h2 class="project-title">shp<span style="color: #a3e635;">.</span>it</h2>
-          <p class="project-desc">localhost, meet the world. Share your local dev server with anyone instantly. No
-            CI/CD.
-            No hosting. No config. Just one command to go live.</p>
+          <div class="project-desc-container">
+            <p class="project-desc">localhost, meet the world. Share your local dev server with anyone instantly. No
+              CI/CD.
+              No hosting. No config. Just one command to go live.</p>
+            <div class="project-desc-extended" id="shpit-desc-extended">
+              <p><strong>shp.it: Instant Localhost Tunnels</strong> A lightning-fast development tool that exposes local
+                servers to the internet securely. Built for developers who need to share progress without deploying.</p>
+              <p><strong>Global Edge Network:</strong> Leverages edge regions to route traffic efficiently, ensuring
+                low-latency connections from anywhere in the world.</p>
+              <p><strong>Secure WebSocket Tunnels:</strong> Establishes persistent, encrypted WebSocket connections
+                between the CLI client and the relay server, safely forwarding HTTP requests bypassing NATs and
+                firewalls.</p>
+              <p><strong>Zero-Config CLI:</strong> A lightweight Node.js CLI that requires no configuration files.
+                Simply run <code>npx shpit 3000</code> to get a public, HTTPS URL instantly.</p>
+              <p><strong>Real-time Request Inspection:</strong> Built-in local dashboard to monitor incoming requests,
+                headers, and payloads, making webhook debugging effortless.</p>
+            </div>
+            <button class="read-more-btn" id="shpit-read-more">Read More +</button>
+          </div>
         </div>
 
         <div class="project-embed" id="shpit-embed">

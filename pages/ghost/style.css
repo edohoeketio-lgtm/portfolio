@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
+
+@font-face {
+    font-family: "PPSupplyMono";
+    src: url("https://assets.codepen.io/7558/PPSupplyMono-Variable.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #111;
+    letter-spacing: -0.03em;
+}
+
+/* Preloader Styles */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.preloader.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.preloader-content {
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.ghost-loader {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ghost-svg {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+    animation: ghostFloat 3s ease-in-out infinite;
+}
+
+.ghost-body {
+    fill: white;
+    opacity: 0.9;
+}
+
+.ghost-eye {
+    fill: black;
+    animation: eyePulse 2s ease-in-out infinite;
+    transform-origin: center;
+}
+
+.left-eye {
+    animation-delay: 0s;
+}
+
+.right-eye {
+    animation-delay: 0.1s;
+}
+
+@keyframes ghostFloat {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes eyePulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+}
+
+.ghost-orb,
+.ghost-trail {
+    display: none;
+}
+
+.loading-text {
+    font-family: "PPSupplyMono", monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 12px;
+    animation: textPulse 2s ease-in-out infinite;
+}
+
+@keyframes textPulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+}
+
+.loading-progress {
+    width: 96px;
+    height: 1px;
+    margin: 0 auto;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #00ff80, #00cc66);
+    opacity: 0.1;
+    width: 0%;
+    transition: width 0.8s ease;
+}
+
+/* Main Content Styles */
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: #e0e0e0;
+    opacity: 0;
+    transition: opacity 1.5s ease-in;
+}
+
+.content.fade-in {
+    opacity: 1;
+}
+
+.quote-container {
+    max-width: 90%;
+    overflow: hidden;
+}
+
+.quote {
+    font-family: "Boldonse", system-ui;
+    font-size: 6vw;
+    line-height: 1.3;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 5vh;
+    text-transform: uppercase;
+}
+
+.author {
+    font-family: "PPSupplyMono", monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-top: 2vh;
+}
+
+/* Canvas initially hidden */
+canvas {
+    opacity: 0 !important;
+    transition: opacity 2s ease-in;
+}
+
+canvas.fade-in {
+    opacity: 1 !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   ANIMUS HUD — Full Custom Container + Tweakpane
+   ═══════════════════════════════════════════════════════ */
+
+#animus-hud {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    width: 300px;
+    z-index: 10000;
+    pointer-events: auto;
+    border: 1px solid rgba(196, 164, 105, 0.25);
+    background: rgba(5, 5, 12, 0.94);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow:
+        0 0 40px rgba(0, 0, 0, 0.6),
+        0 0 1px rgba(196, 164, 105, 0.4),
+        inset 0 0 60px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    font-family: 'PPSupplyMono', 'Space Mono', monospace;
+}
+
+/* ── Corner Brackets ── */
+.hud-corner {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    z-index: 2;
+}
+
+.hud-tl {
+    top: -1px;
+    left: -1px;
+    border-top: 2px solid rgba(196, 164, 105, 0.7);
+    border-left: 2px solid rgba(196, 164, 105, 0.7);
+}
+
+.hud-tr {
+    top: -1px;
+    right: -1px;
+    border-top: 2px solid rgba(196, 164, 105, 0.7);
+    border-right: 2px solid rgba(196, 164, 105, 0.7);
+}
+
+.hud-bl {
+    bottom: -1px;
+    left: -1px;
+    border-bottom: 2px solid rgba(196, 164, 105, 0.7);
+    border-left: 2px solid rgba(196, 164, 105, 0.7);
+}
+
+.hud-br {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 2px solid rgba(196, 164, 105, 0.7);
+    border-right: 2px solid rgba(196, 164, 105, 0.7);
+}
+
+/* ── Scanning Line ── */
+.hud-scan-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(196, 164, 105, 0.6), transparent);
+    z-index: 3;
+    animation: scanDown 4s ease-in-out infinite;
+    opacity: 0.7;
+}
+
+@keyframes scanDown {
+    0% {
+        top: 0;
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 0.7;
+    }
+
+    95% {
+        opacity: 0.7;
+    }
+
+    100% {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+/* ── Header ── */
+.hud-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px 10px;
+    border-bottom: 1px solid rgba(196, 164, 105, 0.12);
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s ease;
+}
+
+.hud-header:hover {
+    background: rgba(196, 164, 105, 0.03);
+}
+
+.hud-chevron {
+    font-size: 10px;
+    color: rgba(196, 164, 105, 0.4);
+    margin-left: 6px;
+    transition: transform 0.3s ease;
+}
+
+/* ── Collapsible Body ── */
+.hud-body {
+    max-height: 80vh;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+    opacity: 1;
+}
+
+#animus-hud.collapsed .hud-body {
+    max-height: 0;
+    opacity: 0;
+}
+
+#animus-hud.collapsed .hud-header {
+    border-bottom-color: transparent;
+}
+
+.hud-header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hud-status-dot {
+    width: 6px;
+    height: 6px;
+    background: #4ade80;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
+    animation: dotPulse 2s ease-in-out infinite;
+}
+
+@keyframes dotPulse {
+
+    0%,
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
+    }
+
+    50% {
+        opacity: 0.5;
+        box-shadow: 0 0 4px rgba(74, 222, 128, 0.3);
+    }
+}
+
+.hud-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    color: rgba(196, 164, 105, 0.9);
+}
+
+.hud-version {
+    font-size: 8px;
+    letter-spacing: 0.1em;
+    color: rgba(196, 164, 105, 0.35);
+    padding: 1px 5px;
+    border: 1px solid rgba(196, 164, 105, 0.15);
+}
+
+.hud-header-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.hud-sync {
+    font-size: 7px;
+    letter-spacing: 0.2em;
+    color: rgba(196, 164, 105, 0.35);
+}
+
+.hud-sync-pct {
+    font-size: 9px;
+    letter-spacing: 0.05em;
+    color: #4ade80;
+    font-weight: 700;
+}
+
+/* ── Subheader (The Creed) ── */
+.hud-subheader {
+    text-align: center;
+    padding: 6px 16px 8px;
+    border-bottom: 1px solid rgba(196, 164, 105, 0.08);
+}
+
+.hud-creed {
+    font-size: 6.5px;
+    letter-spacing: 0.35em;
+    color: rgba(196, 164, 105, 0.2);
+}
+
+/* ── DNA Helix Strip ── */
+.hud-dna-strip {
+    padding: 4px 16px;
+    border-bottom: 1px solid rgba(196, 164, 105, 0.08);
+}
+
+.hud-dna-strip svg {
+    width: 100%;
+    height: 8px;
+    display: block;
+}
+
+/* ── Pane Mount (scrollable) ── */
+#pane-mount {
+    max-height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(196, 164, 105, 0.2) transparent;
+}
+
+#pane-mount::-webkit-scrollbar {
+    width: 3px;
+}
+
+#pane-mount::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#pane-mount::-webkit-scrollbar-thumb {
+    background: rgba(196, 164, 105, 0.2);
+}
+
+/* ── Footer ── */
+.hud-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-top: 1px solid rgba(196, 164, 105, 0.08);
+}
+
+.hud-footer-left,
+.hud-footer-right {
+    font-size: 7px;
+    letter-spacing: 0.2em;
+    color: rgba(196, 164, 105, 0.2);
+}
+
+/* ═══════════════════════════════════════════
+   TWEAKPANE OVERRIDES — Animus Theme
+   ═══════════════════════════════════════════ */
+
+.ac-pane {
+    --tp-base-background-color: transparent !important;
+    --tp-base-shadow-color: transparent !important;
+    --tp-button-background-color: rgba(196, 164, 105, 0.08) !important;
+    --tp-button-background-color-active: rgba(196, 164, 105, 0.2) !important;
+    --tp-button-background-color-focus: rgba(196, 164, 105, 0.12) !important;
+    --tp-button-background-color-hover: rgba(196, 164, 105, 0.15) !important;
+    --tp-button-foreground-color: rgba(196, 164, 105, 0.85) !important;
+    --tp-container-background-color: rgba(8, 8, 16, 0.4) !important;
+    --tp-container-background-color-active: rgba(196, 164, 105, 0.06) !important;
+    --tp-container-background-color-focus: rgba(196, 164, 105, 0.04) !important;
+    --tp-container-background-color-hover: rgba(196, 164, 105, 0.03) !important;
+    --tp-container-foreground-color: rgba(196, 164, 105, 0.6) !important;
+    --tp-groove-foreground-color: rgba(196, 164, 105, 0.1) !important;
+    --tp-input-background-color: rgba(8, 8, 16, 0.7) !important;
+    --tp-input-background-color-active: rgba(196, 164, 105, 0.1) !important;
+    --tp-input-background-color-focus: rgba(196, 164, 105, 0.06) !important;
+    --tp-input-background-color-hover: rgba(196, 164, 105, 0.04) !important;
+    --tp-input-foreground-color: rgba(220, 195, 140, 0.85) !important;
+    --tp-label-foreground-color: rgba(196, 164, 105, 0.4) !important;
+    --tp-monitor-background-color: rgba(8, 8, 16, 0.6) !important;
+    --tp-monitor-foreground-color: rgba(196, 164, 105, 0.5) !important;
+}
+
+/* Hide the empty title bar */
+.ac-pane>.tp-rotv>.tp-rotv_t {
+    display: none !important;
+}
+
+/* Folder titles */
+.ac-pane .tp-fldv_t {
+    font-family: 'PPSupplyMono', 'Space Mono', monospace !important;
+    font-size: 8.5px !important;
+    letter-spacing: 0.18em !important;
+    color: rgba(196, 164, 105, 0.55) !important;
+    padding: 8px 12px !important;
+    border-left: 2px solid rgba(196, 164, 105, 0.2) !important;
+    transition: all 0.3s ease;
+}
+
+.ac-pane .tp-fldv_t:hover {
+    border-left-color: rgba(196, 164, 105, 0.6) !important;
+    color: rgba(196, 164, 105, 0.85) !important;
+    background: rgba(196, 164, 105, 0.03) !important;
+}
+
+/* Folder arrow */
+.ac-pane .tp-fldv_m {
+    border-color: rgba(196, 164, 105, 0.3) !important;
+}
+
+/* Labels */
+.ac-pane .tp-lblv_l {
+    font-family: 'PPSupplyMono', 'Space Mono', monospace !important;
+    font-size: 8px !important;
+    letter-spacing: 0.06em !important;
+    text-transform: uppercase !important;
+    color: rgba(196, 164, 105, 0.3) !important;
+}
+
+/* Slider knob — angular, gold */
+.ac-pane .tp-sldv_k {
+    background: linear-gradient(180deg, #c4a469, #9a7d48) !important;
+    border-radius: 0 !important;
+    box-shadow: 0 0 6px rgba(196, 164, 105, 0.2) !important;
+}
+
+/* Slider track — angular */
+.ac-pane .tp-sldv_t {
+    border-radius: 0 !important;
+}
+
+/* Selects */
+.ac-pane select,
+.ac-pane .tp-lstv_s {
+    font-family: 'PPSupplyMono', 'Space Mono', monospace !important;
+    font-size: 8px !important;
+    letter-spacing: 0.06em !important;
+    text-transform: uppercase !important;
+    border-radius: 0 !important;
+    border: 1px solid rgba(196, 164, 105, 0.12) !important;
+}
+
+/* Checkbox — angular */
+.ac-pane .tp-ckbv_w {
+    border-radius: 0 !important;
+    border: 1px solid rgba(196, 164, 105, 0.2) !important;
+}
+
+.ac-pane .tp-ckbv_w svg {
+    color: #c4a469 !important;
+}
+
+/* Inputs */
+.ac-pane input[type="text"],
+.ac-pane .tp-txtv_i {
+    font-family: 'PPSupplyMono', 'Space Mono', monospace !important;
+    font-size: 8px !important;
+    border-radius: 0 !important;
+    border: 1px solid rgba(196, 164, 105, 0.1) !important;
+}

@@ -78,21 +78,27 @@ if (ctaPrimary) {
     });
 }
 
-const streamReadMoreBtn = document.getElementById('stream-read-more');
-const streamDescExtended = document.getElementById('stream-desc-extended');
+function setupReadMore(btnId, containerId, expandText, collapseText) {
+    const btn = document.getElementById(btnId);
+    const container = document.getElementById(containerId);
 
-if (streamReadMoreBtn && streamDescExtended) {
-    streamReadMoreBtn.addEventListener('click', () => {
-        const isExpanded = streamDescExtended.classList.contains('expanded');
-        if (isExpanded) {
-            streamDescExtended.classList.remove('expanded');
-            streamReadMoreBtn.textContent = 'Read More +';
-        } else {
-            streamDescExtended.classList.add('expanded');
-            streamReadMoreBtn.textContent = 'Read Less -';
-        }
-    });
+    if (btn && container) {
+        btn.addEventListener('click', () => {
+            const isExpanded = container.classList.contains('expanded');
+            if (isExpanded) {
+                container.classList.remove('expanded');
+                btn.textContent = expandText;
+            } else {
+                container.classList.add('expanded');
+                btn.textContent = collapseText;
+            }
+        });
+    }
 }
+
+setupReadMore('stream-read-more', 'stream-desc-extended', 'Read More +', 'Read Less -');
+setupReadMore('shpit-read-more', 'shpit-desc-extended', 'Read More +', 'Read Less -');
+
 
 const ctaSecondary = document.getElementById('cta-secondary');
 if (ctaSecondary) {

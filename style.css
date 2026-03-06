@@ -530,6 +530,61 @@ body.theme-brutalist {
     color: #fff;
 }
 
+.light-theme .read-more-btn {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.light-theme .read-more-btn:hover {
+    color: #000;
+}
+
+.brutalist-desc-container {
+    max-width: 600px;
+    margin-bottom: 0.8rem;
+}
+
+.brutalist-desc-extended {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, opacity 0.4s ease-out, margin-top 0.4s;
+    opacity: 0;
+}
+
+.brutalist-desc-extended.expanded {
+    max-height: 1000px;
+    opacity: 1;
+    margin-top: 0.8rem;
+}
+
+.brutalist-desc-extended p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+    color: #444;
+}
+
+.brutalist-desc-extended p strong {
+    color: #000;
+}
+
+.brutalist-read-more-btn {
+    background: transparent;
+    border: none;
+    color: #666;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.85rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    padding: 0;
+    transition: color 0.2s;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.brutalist-read-more-btn:hover {
+    color: #000;
+}
+
 .project-embed {
     width: 100%;
     min-height: 750px;
