@@ -31,124 +31,6 @@ body.theme-brutalist {
     flex-direction: column;
 }
 
-/* ── Hero ───────────────────────────────────── */
-#hero {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 10;
-}
-
-#hero.scaled-back {
-    transform: scale(0.92) translateY(-2%);
-    filter: brightness(0.3);
-    pointer-events: none;
-}
-
-/* ── Background Video ────────────────────────── */
-#bg-video {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-}
-
-/* ── Overlay ─────────────────────────────────── */
-#overlay {
-    position: absolute;
-    inset: 0;
-    background: transparent;
-    z-index: 1;
-}
-
-/* ── Content ─────────────────────────────────── */
-#content {
-    position: relative;
-    z-index: 2;
-    padding-left: clamp(2rem, 8vw, 10rem);
-    padding-right: 2rem;
-    max-width: 680px;
-    opacity: 0;
-    transform: translateY(24px);
-    animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
-}
-
-#headline {
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    font-size: clamp(2.2rem, 5vw, 3.8rem);
-    line-height: 1.1;
-    color: #2c1e0e;
-    letter-spacing: -0.03em;
-    margin-bottom: 1.25rem;
-    transition: transform 0.15s ease-out;
-    transform-origin: center center;
-    will-change: transform;
-}
-
-
-
-/* ── Subhead ─────────────────────────────────── */
-#subhead {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: clamp(1rem, 1.8vw, 1.2rem);
-    line-height: 1.6;
-    color: #4a3520;
-    margin-bottom: 2.5rem;
-    transition: transform 0.15s ease-out;
-    transform-origin: center center;
-    will-change: transform;
-}
-
-/* ── CTA Group ───────────────────────────────── */
-#cta-group {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-#cta-primary,
-#cta-secondary {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 0.95rem;
-    letter-spacing: 0.01em;
-    text-decoration: none;
-    padding: 0.85rem 2rem;
-    border-radius: 6px;
-    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-    cursor: pointer;
-}
-
-#cta-primary {
-    background: #2c1e0e;
-    color: #e8d5b8;
-}
-
-#cta-primary:hover {
-    background: #3d2a16;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-}
-
-#cta-secondary {
-    background: transparent;
-    color: #2c1e0e;
-    border: 1px solid rgba(44, 30, 14, 0.35);
-}
-
-#cta-secondary:hover {
-    border-color: rgba(44, 30, 14, 0.6);
-    background: rgba(44, 30, 14, 0.08);
-    transform: translateY(-2px);
-}
-
 /* ── Sound Toggle ─────────────────────────────── */
 #sound-toggle {
     position: absolute;
@@ -297,34 +179,6 @@ body.theme-brutalist {
         display: none !important;
         /* No hover previews on mobile */
     }
-
-    .theme-toggle {
-        top: 1rem;
-        right: 1rem;
-        padding: 0.4rem 0.8rem;
-        font-size: 0.7rem;
-    }
-
-    .madlibs-text {
-        font-size: 1.35rem;
-        line-height: 1.6;
-    }
-
-    .madlibs-text input {
-        font-size: 1.35rem;
-        width: 140px;
-    }
-
-    .social-bento {
-        margin-top: 3rem;
-        gap: 2rem;
-    }
-
-    .contact-wrap {
-        padding-top: 5vh;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
 }
 
 /* ── Home Button / Logo (M) ──────────────────── */
@@ -357,14 +211,7 @@ body.theme-brutalist {
     transform: scale(1.08);
 }
 
-/* ── Slide Panels (Cards stacking from bottom) ───── */
-.slide-panel {
-    position: relative;
-    width: 100%;
-    background: #0a0a0a;
-    z-index: 20;
-    overflow: visible;
-}
+
 
 /* ── Content Sections (Internal flow) ────────── */
 .content-section {
@@ -951,7 +798,7 @@ body.theme-brutalist {
 .hover-preview img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* ── Brutalist Mode Scoped Styles ───── */
