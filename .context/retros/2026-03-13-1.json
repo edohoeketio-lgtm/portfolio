@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-13",
+  "window": "14d",
+  "metrics": {
+    "commits": 23,
+    "contributors": 2,
+    "prs_merged": 0,
+    "insertions": 2100,
+    "deletions": 1050,
+    "net_loc": 1050,
+    "test_loc": 0,
+    "test_ratio": 0.0,
+    "active_days": 5,
+    "sessions": 6,
+    "deep_sessions": 1,
+    "avg_session_minutes": 25,
+    "loc_per_session_hour": 800,
+    "feat_pct": 0.26,
+    "fix_pct": 0.35,
+    "peak_hour": 1,
+    "ai_assisted_commits": 0
+  },
+  "authors": {
+    "Maurice": { "commits": 1, "insertions": 34, "deletions": 607, "test_ratio": 0.0, "top_area": "/" },
+    "Vercel Deployer": { "commits": 22, "insertions": 2066, "deletions": 443, "test_ratio": 0.0, "top_area": "/" }
+  },
+  "version_range": ["unknown", "unknown"],
+  "streak_days": 1,
+  "tweetable": "Past 14 days: 23 commits (2 contributors), ~2.1k LOC inserted, 0% tests, peak: 1am | Streak: 1d"
+}
