@@ -11,9 +11,11 @@
   <link rel="stylesheet" href="/style.css" />
   <style>
     .article-container {
+      width: 100%;
       max-width: 800px;
       margin: 0 auto;
       padding: 8rem 2rem 6rem;
+      box-sizing: border-box;
     }
     .article-header {
       margin-bottom: 4rem;
@@ -237,7 +239,7 @@
         <div style="margin-top: 4rem; padding: 2.5rem; background: #000; color: #fff; border: 3px solid #000; box-shadow: none; border-radius: 8px;">
           <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; text-transform: uppercase;">Get The Drop</h3>
           <p style="font-family: 'Space Mono', monospace; font-size: 0.95rem; margin-bottom: 2rem;">Drop your email to get the open-source <code style="background: #333; color: #e0ff4f; padding: 0.2rem 0.4rem; border-radius: 4px;">stateRef</code> snippet next week before I break the WebRTC layer.</p>
-          <form action="https://mauriceedohoeket.substack.com/subscribe" method="POST" style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap;">
+          <form action="https://formspree.io/f/mzdjvoav" method="POST" style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap;">
             <input type="email" name="email" placeholder="CTO@acme.inc" required style="flex-grow: 1; min-width: 250px; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; outline: none;" />
             <button type="submit" style="background: #fff; color: #000; border: 3px solid #fff; padding: 0 2.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; cursor: pointer; text-transform: uppercase; border-radius: 4px; white-space: nowrap;">Subscribe</button>
           </form>
