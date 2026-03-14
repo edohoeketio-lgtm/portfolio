@@ -1,5 +1,32 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
+import { readdirSync, statSync } from 'fs';
+
+// Helper to recursively find all HTML files
+function getHtmlFiles(dir, fileList = []) {
+  const files = readdirSync(dir);
+  for (const file of files) {
+    const filePath = resolve(dir, file);
+    if (statSync(filePath).isDirectory()) {
+      // Ignore build output, dependencies, and hidden folders
+      if (file !== 'node_modules' && file !== 'dist' && !file.startsWith('.')) {
+        getHtmlFiles(filePath, fileList);
+      }
+    } else if (filePath.endsWith('.html')) {
+      fileList.push(filePath);
+    }
+  }
+  return fileList;
+}
+
+const inputEntries = {};
+// Dynamically generate the Rollup input map for every HTML page
+getHtmlFiles(__dirname).forEach((file) => {
+  const relativePath = file.replace(__dirname, '').replace(/^[/\\]/, '');
+  const key = relativePath.replace(/\.html$/, '').replace(/[/\\]/g, '_');
+  // Fallback 'main' key for the root index.html to match Vite conventions
+  inputEntries[key === 'index' ? 'main' : key] = file;
+});
 
 export default defineConfig({
   server: {
@@ -8,14 +35,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'index.html'),
-        clips: resolve(__dirname, 'pages/clips/index.html'),
-        ghost: resolve(__dirname, 'pages/ghost/index.html'),
-        articles_index: resolve(__dirname, 'pages/articles/index.html'),
-        articles_ai_workflow: resolve(__dirname, 'pages/articles/ai-orchestration-workflow.html'),
-        articles_streamfm: resolve(__dirname, 'pages/articles/streamfm.html')
-      }
+      input: inputEntries
     }
   }
 });
