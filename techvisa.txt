@@ -1,0 +1,4793 @@
+Programa TechVisa - Lista de empresas certificadas /
+TechVisa Programme - List of certified companies
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+516012339
+
+APRES TECHNOLOGIES PORTUGAL, UNIPESSOAL LIMITADA
+
+07-05-2021
+
+07-05-2026
+
+516590626
+
+EXCELLENCE CENTER DEVOTEAM PORTUGAL, LDA
+
+31-05-2022
+
+31-05-2027
+
+508291941
+
+1Global Technologies (Portugal) S.A.
+
+07-04-2025
+
+07-04-2030
+
+514970138
+
+25FRIDAY, UNIPESSOAL LDA
+
+26-11-2021
+
+26-11-2026
+
+509856462
+
+2WINDSERVICE, LDA
+
+06-12-2021
+
+06-12-2026
+
+515209686
+
+3URA Unipessoal Lda
+
+07-01-2022
+
+07-01-2027
+
+510688268
+
+A2ITwb - Tecnologia, S.A.
+
+09-01-2023
+
+09-01-2028
+
+501837264
+
+AAC TÊXTEIS, SA
+
+23-05-2021
+
+23-05-2026
+
+516539124
+
+AAW, Lda.
+
+16-05-2022
+
+16-05-2027
+
+502443855
+
+Accenture Technology Solutions - Informáticas Integradas, SA
+
+07-01-2022
+
+07-01-2027
+
+516167251
+
+ACELERAÇÃO TOTAL SISTEMAS, UNIPESSOAL LDA
+
+31-05-2022
+
+31-05-2027
+
+506887588
+
+Active Space Technologies, Actividades Aeroespaciais S.A.
+
+08-04-2024
+
+08-04-2029
+
+515170720
+
+AD EVOLUTIO, LDA
+
+17-08-2022
+
+17-08-2027
+
+503402516
+
+Adecco Prestação de Serviços, Lda
+
+08-02-2023
+
+08-02-2028
+
+513969055
+
+ADENTIS, S.A.
+
+04-06-2021
+
+04-06-2026
+
+518022781
+
+ADVANCE GLOBAL IT SUPPORT SOCIEDADE UNIPESSOAL LDA
+
+26-01-2026
+
+26-01-2031
+
+517150590
+
+ADVANCE WORKS - SERVIÇOS DE CONSULTORIA E TECNOLOGIA, LDA
+
+02-03-2023
+
+02-03-2028
+
+517529580
+
+ADVANCED XELERATE TECH, UNIPESSOAL LDA
+
+17-10-2023
+
+17-10-2028
+
+514489081
+
+ADVANNOR - ENGINEERING UNIPESSOAL LDA
+
+17-11-2025
+
+17-11-2030
+
+516547542
+
+ADVANTAGEWORKS LDA
+
+16-05-2022
+
+16-05-2027
+
+510303811
+
+Affinity S.A.
+
+26-11-2021
+
+26-11-2026
+
+514627522
+
+Aixtel Technologies, SA
+
+16-05-2022
+
+16-05-2027
+
+980730171
+
+AKKA TECHNOLOGIES SPAIN SL - SUCURSAL EM PORTUGAL
+
+27-04-2023
+
+27-04-2028
+
+517110857
+
+ALFABETO SALUTAR UNIPESSOAL,LDA
+
+15-02-2023
+
+15-02-2028
+
+517337223
+
+Alongside, LDA
+
+27-11-2023
+
+27-11-2028
+
+504313290
+
+ALS - Life Sciences Portugal ,SA
+
+09-01-2023
+
+09-01-2028
+
+514497360
+
+Also Known As People, Lda
+
+28-09-2021
+
+28-09-2026
+
+513674144
+
+Altario Technologies, SA
+
+25-03-2022
+
+25-03-2027
+
+513418210
+
+Alter Solutions Portugal
+
+21-10-2021
+
+21-10-2026
+
+516815911
+
+AMAYASTI PORTUGAL UNIPESSOAL LDA
+
+17-10-2023
+
+17-10-2028
+
+503239917
+
+AMBISIG - Ambiente e Sistemas de Informação Geográfica, S.A.
+
+30-11-2023
+
+30-11-2028
+
+516428497
+
+AMGEN CAPABILITY CENTER PORTUGAL, LDA
+
+10-11-2022
+
+10-11-2027
+
+504642022
+
+Ankix Systems, Lda
+
+31-03-2021
+
+31-03-2026
+
+509987184
+
+Aptoide, Lda
+
+08-02-2023
+
+08-02-2028
+
+518150623
+
+Arcesium Portugal, Lda
+
+19-12-2024
+
+19-12-2029
+
+513504389
+
+Argo Baum Tech Precision Lda
+
+02-08-2021
+
+02-08-2026
+
+13-03-2026 19:52:24
+
+1
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+515155373
+
+Ascent (Portugal) Unipessoal LDA.
+
+07-01-2022
+
+07-01-2027
+
+510722920
+
+Ask Blue, Lda
+
+02-11-2021
+
+02-11-2026
+
+503184136
+
+Assis Business Partners, Lda
+
+25-08-2021
+
+25-08-2026
+
+516434020
+
+ASSOCIAÇÃO KIPT INOVAÇÃO E TURISMO, LABORATÓRIO COLABORATIVO
+
+29-09-2022
+
+29-09-2027
+
+515747955
+
+Associação para a inovação e investigação em nutrição e alimentação animal FeedInov
+
+27-04-2022
+
+27-04-2027
+
+508787394
+
+AST - SOLUÇÕES E SERVIÇOS DE AMBIENTE, UNIP. LDA.
+
+15-02-2024
+
+15-02-2029
+
+514866683
+
+ATALE.IO, LDA
+
+29-08-2022
+
+29-08-2027
+
+516969684
+
+Atmotech, Unipessoal, Lda
+
+11-09-2023
+
+11-09-2028
+
+513515739
+
+ATOUCH WINWEL, LDA
+
+05-04-2021
+
+05-04-2026
+
+510830536
+
+AuBay Portugal, SA
+
+28-09-2021
+
+28-09-2026
+
+516754203
+
+AVENUE CODE PORTUGAL, UNIPESSOAL,LDA.
+
+29-09-2022
+
+29-09-2027
+
+515280445
+
+Avlino Portugal, Lda
+
+21-12-2021
+
+21-12-2026
+
+516162829
+
+Awesome Source, Unipessoal Lda.
+
+24-03-2021
+
+24-03-2026
+
+980595304
+
+AXA GROUP OPERATIONS SAS - SUCURSAL EM PORTUGAL
+
+23-05-2024
+
+23-05-2029
+
+503676985
+
+AXIANSEU DC LC, S.A.
+
+05-02-2026
+
+05-02-2031
+
+500074372
+
+AXIANSEU DIGITAL SOLUTIONS, S.A.
+
+14-02-2025
+
+14-02-2030
+
+516281593
+
+Ayaz Mahmood, Unipessoal Lda.
+
+20-03-2025
+
+20-03-2030
+
+516010085
+
+Bac3Gel Lda
+
+04-03-2024
+
+04-03-2029
+
+517280256
+
+BALANÇO FAVORÁVEL UNIPESSOAL LDA
+
+16-03-2023
+
+16-03-2028
+
+514416130
+
+Bandora Systems, Lda.
+
+19-02-2025
+
+19-02-2030
+
+513378421
+
+BASECONE, UNIPESSOAL LDA
+
+15-09-2021
+
+15-09-2026
+
+516700243
+
+BDLS HSP, UNIPESSOAL LDA
+
+29-09-2022
+
+29-09-2027
+
+513063145
+
+BEE ENGENIEERING SA
+
+10-06-2021
+
+10-06-2026
+
+517031590
+
+BENVI TECNOLOGIA PORTUGAL LDA
+
+14-04-2024
+
+14-04-2029
+
+515730920
+
+Beyond Pricing Portugal, Unipessoal Lda.
+
+21-12-2021
+
+21-12-2026
+
+500220913
+
+BIAL
+
+02-08-2021
+
+02-08-2026
+
+515396010
+
+BINARY ELEVEN TECHNOLOGIES, LDA
+
+31-01-2022
+
+31-01-2027
+
+517351498
+
+Binedge, Lda
+
+02-06-2023
+
+02-06-2028
+
+514506172
+
+Bisect, Unipessoal Lda
+
+28-03-2025
+
+28-03-2030
+
+515905275
+
+BJSS Unipessoal, Lda
+
+05-08-2021
+
+05-08-2026
+
+515751138
+
+Blend Euro
+
+09-08-2021
+
+09-08-2026
+
+509193331
+
+BLISS APPLICATIONS, LDA
+
+31-03-2021
+
+31-03-2026
+
+516561340
+
+BLUE OCEAN SUSTAINABLE SOLUTIONS, SA
+
+18-11-2024
+
+18-11-2029
+
+514613173
+
+BluePanda, Lda.
+
+27-02-2025
+
+27-02-2030
+
+509216595
+
+BOLDINT SA
+
+20-03-2021
+
+20-03-2026
+
+510768105
+
+BOOL - Ilha Terceira
+
+10-11-2022
+
+10-11-2027
+
+502315407
+
+Bosch Car Multimedia Portugal SA
+
+12-01-2022
+
+12-01-2027
+
+500666474
+
+Bosch Termotecnologia SA
+
+30-09-2024
+
+30-09-2029
+
+514721146
+
+BRAIN MATTERS - INOVAÇÃO E TECNOLOGIA PORTUGAL LDA
+
+02-09-2021
+
+02-09-2026
+
+13-03-2026 19:52:24
+
+2
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+516534165
+
+BRAZY PORTUGAL UNIPESSOAL LDA.
+
+27-04-2023
+
+27-04-2028
+
+516449125
+
+Bridge351 Unipessoal Lda
+
+25-08-2021
+
+25-08-2026
+
+515759783
+
+Bridgein Lda
+
+28-09-2021
+
+28-09-2026
+
+504106686
+
+Brighten, S.A.
+
+06-07-2023
+
+06-07-2028
+
+510308457
+
+BRING GLOBAL SERVICES, SA
+
+02-08-2023
+
+02-08-2028
+
+507893956
+
+BSOLUS - Business Solutions, Lda
+
+21-12-2021
+
+21-12-2026
+
+515319384
+
+Buchanan Consulting
+
+17-08-2022
+
+17-08-2027
+
+510253539
+
+Bugle SA
+
+27-04-2021
+
+27-04-2026
+
+507711513
+
+Byside - Lead Activation, S.A.
+
+07-01-2022
+
+07-01-2027
+
+504272179
+
+CAPGEMINI PORTUGAL SA
+
+24-03-2021
+
+24-03-2026
+
+513675604
+
+CARE TO BEAUTY, LDA. (ZONA FRANCA DA MADEIRA)
+
+26-11-2021
+
+26-11-2026
+
+509339395
+
+Casas em Movimento, LDA
+
+29-01-2025
+
+29-01-2030
+
+516137948
+
+Ccrave LDA
+
+26-11-2021
+
+26-11-2026
+
+507092287
+
+Celfinet - Consultoria em Telecomunicações, S.A
+
+13-05-2021
+
+13-05-2026
+
+502605731
+
+CGITI Portugal, S.A.
+
+03-10-2023
+
+03-10-2028
+
+513037322
+
+Charge2C-Newcap
+
+28-03-2025
+
+28-03-2030
+
+514142790
+
+CIBERSAPIENS - UNIPESSOAL LDA
+
+24-04-2024
+
+24-04-2029
+
+504727060
+
+Cisco Systems Portugal
+
+09-02-2022
+
+09-02-2027
+
+503412031
+
+Claranet Portugal - Telecomunicações, SA
+
+02-11-2021
+
+02-11-2026
+
+508828589
+
+Cleverti - Tecnologias e Inovação, lda
+
+08-11-2021
+
+08-11-2026
+
+507246152
+
+Closer, Lda
+
+15-03-2021
+
+15-03-2026
+
+515486817
+
+CLOUDFLARE PORTUGAL, UNIPESSOAL, LDA
+
+13-08-2025
+
+13-08-2030
+
+516374079
+
+CLOUDGEEKS UNIPESSOAL LDA.
+
+17-08-2022
+
+17-08-2027
+
+505750759
+
+Cmas - Systems Consultants - Consultoria de Sistemas Lda
+
+02-11-2021
+
+02-11-2026
+
+514948876
+
+Cocus Portugal - It Services, Lda
+
+02-09-2021
+
+02-09-2026
+
+510894160
+
+Code For All, S.A.
+
+12-05-2024
+
+12-05-2029
+
+503891797
+
+Codeware Consultoria Desenvolvimento e Software S.A.
+
+21-12-2021
+
+21-12-2026
+
+516428667
+
+CODEWIN - MOONGY, S.A.
+
+16-05-2022
+
+16-05-2027
+
+514729392
+
+CODEX SOFTWARE UNIPESSOAL LDA
+
+29-08-2022
+
+29-08-2027
+
+514644516
+
+CÓDIGO NENÚFAR, LDA.
+
+09-09-2025
+
+09-09-2030
+
+514823216
+
+Coewaeg Lda
+
+23-05-2023
+
+23-05-2028
+
+503062928
+
+Coficab Portugal - Companhia de Fios e Cabos Lda
+
+06-07-2023
+
+06-07-2028
+
+509897339
+
+COGNIZANT TECHNOLOGY SOLUTIONS PORTUGAL, UNIPESSOAL LDA
+
+07-10-2021
+
+07-10-2026
+
+513489134
+
+Colevent, Lda
+
+17-10-2023
+
+17-10-2028
+
+504079190
+
+CONCLUSION NEOTALENT, S.A
+
+28-09-2021
+
+28-09-2026
+
+514544090
+
+Congruent LDA
+
+15-02-2024
+
+15-02-2029
+
+516347055
+
+CONSORT NT
+
+15-06-2021
+
+15-06-2026
+
+515517305
+
+Continental Engineering Services Portugal Unipessoal Lda.
+
+25-03-2022
+
+25-03-2027
+
+516960083
+
+CONTINENTAL SOLUTION CENTER PORTUGAL, UNIPESSOAL LDA
+
+09-01-2023
+
+09-01-2028
+
+13-03-2026 19:52:24
+
+3
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+514415444
+
+COSO, UNIPESSOAL LDA (ZONA FRANCA DA MADEIRA)
+
+28-02-2022
+
+28-02-2027
+
+501770046
+
+Couro Azul - Indústria e Comércio de Couros, SA
+
+09-09-2025
+
+09-09-2030
+
+516620053
+
+COVALO, UNIPESSOAL, LDA.,
+
+25-10-2022
+
+25-10-2027
+
+505795175
+
+CREATE IT
+
+07-07-2021
+
+07-07-2026
+
+506168476
+
+Creativesystems, Sistemas e Serviços de Consultoria, SA
+
+27-04-2022
+
+27-04-2027
+
+508904021
+
+Critical Manufacturing, S.A.
+
+19-05-2021
+
+19-05-2026
+
+504208187
+
+Critical Software, S.A.
+
+15-11-2021
+
+15-11-2026
+
+514852046
+
+CRITICAL TW, SA
+
+08-12-2021
+
+08-12-2026
+
+517221659
+
+Crocodile Conquest Unipessoal, LDA
+
+22-01-2024
+
+22-01-2029
+
+513775110
+
+CYBERSAFE
+
+31-01-2022
+
+31-01-2027
+
+507062639
+
+Cycloid Technology and Consulting LDA
+
+10-11-2022
+
+10-11-2027
+
+502674911
+
+D&C-Software,Lda
+
+08-11-2021
+
+08-11-2026
+
+514607769
+
+DALTIX, UNIPESSOAL LDA
+
+29-01-2025
+
+29-01-2030
+
+515001465
+
+DASHLANE, SOCIEDADE UNIPESSOAL, LDA.
+
+05-08-2021
+
+05-08-2026
+
+516879782
+
+DATA DIGGERS, LDA
+
+25-10-2022
+
+25-10-2027
+
+516173162
+
+Data Magnum Europa, Lda.
+
+15-03-2021
+
+15-03-2026
+
+515909556
+
+Dataflow, Unipessoal Lda
+
+21-12-2021
+
+21-12-2026
+
+517819759
+
+Datahouse Unipessoal Lda
+
+30-09-2024
+
+30-09-2029
+
+506669254
+
+DataSmart - Serviços de Consultadoria Informática, Lda
+
+13-05-2021
+
+13-05-2026
+
+508413265
+
+Decision Team, Lda.
+
+21-10-2021
+
+21-10-2026
+
+515573981
+
+DECODE TECH, S.A.
+
+25-08-2021
+
+25-08-2026
+
+510070833
+
+Decskill - Tecnologias de Informação, Lda.
+
+02-08-2021
+
+02-08-2026
+
+513715088
+
+DefinedCrowd Corporation Unipessoal, Lda
+
+31-03-2021
+
+31-03-2026
+
+506245179
+
+Deimos Engenharia SA
+
+14-02-2025
+
+14-02-2030
+
+513266488
+
+Dellent Consulting, Lda
+
+25-06-2021
+
+25-06-2026
+
+502310090
+
+Deloitte Technology, S.A.
+
+08-11-2021
+
+08-11-2026
+
+509081681
+
+DENGUN LDA
+
+26-07-2021
+
+26-07-2026
+
+516985400
+
+Desfecho compativel unipessoal LDA
+
+23-05-2023
+
+23-05-2028
+
+507493532
+
+Designgen comunicação visual, Lda
+
+20-07-2021
+
+20-07-2026
+
+514819944
+
+Devexperts Portugal, SA
+
+12-01-2022
+
+12-01-2027
+
+517077256
+
+DEVHAB, UNIPESSOAL LDA
+
+06-07-2023
+
+06-07-2028
+
+506694615
+
+DEVSCOPE SOLUÇÕES DE SISTEMAS E TECNOLOGIAS DE INFORMAÇÃO
+LDA
+
+28-03-2025
+
+28-03-2030
+
+516317920
+
+DigestAID - Artificial Intelligence Development S.A.
+
+02-06-2023
+
+02-06-2028
+
+516564285
+
+DiRoots Limitada
+
+19-07-2022
+
+19-07-2027
+
+514390107
+
+DOING SOFTWARE RIGHT EUROPE, UNIPESSOAL Lda.,
+
+19-07-2022
+
+19-07-2027
+
+509347304
+
+DOTSI, LDA.
+
+26-01-2026
+
+26-01-2031
+
+518462226
+
+DREMIO PORTUGAL, UNIPESSOAL LDA.
+
+17-11-2025
+
+17-11-2030
+
+515020303
+
+DTB TECH & DATA HUB, UNIPESSOAL LDA
+
+15-09-2021
+
+15-09-2026
+
+516524399
+
+DXXR Tech, Unipessoal Lda
+
+17-08-2022
+
+17-08-2027
+
+13-03-2026 19:52:25
+
+4
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+508080991
+
+Eco Choice S.A.
+
+25-06-2021
+
+25-06-2026
+
+514468785
+
+Edge People, Lda
+
+25-08-2021
+
+25-08-2026
+
+517794977
+
+EDNU.AI, UNIPESSOAL LDA
+
+14-01-2026
+
+14-01-2031
+
+980724996
+
+EDREAMS INTERNATIONAL NETWORKS S.L., SUCURSAL EM PORTUGAL
+
+25-10-2022
+
+25-10-2027
+
+504136992
+
+EGOR OUTSOURCING - PRESTAÇÃO DE SERVIÇOS, ORGANIZAÇÃO E
+ADMINISTRAÇÃO DE PESSOAL, LDA.
+
+10-11-2022
+
+10-11-2027
+
+501570691
+
+EIT SERVICES CO. PORTUGAL, LDA
+
+08-02-2023
+
+08-02-2028
+
+980564468
+
+ELSA Corp., - Sucursal em Portugal
+
+25-09-2024
+
+25-09-2029
+
+518492796
+
+ELTLENZ GLOBAL, LDA
+
+12-01-2026
+
+12-01-2031
+
+517119943
+
+EMERGING TRAVEL IBERIA, UNIPESSOAL LDA
+
+27-04-2023
+
+27-04-2028
+
+516235834
+
+EMMA SLEEP PORTUGAL, UNIPESSOAL LDA
+
+31-03-2021
+
+31-03-2026
+
+507415981
+
+Eneida, Lda.
+
+27-04-2023
+
+27-04-2028
+
+517097737
+
+ENERGYNETIQ, LDA
+
+09-01-2023
+
+09-01-2028
+
+510095216
+
+ENGING - MAKE SOLUTIONS, SA
+
+20-10-2025
+
+20-10-2030
+
+513199560
+
+ENGMINDERA SOFTWARE ENGINEERING SA
+
+21-10-2021
+
+21-10-2026
+
+517010542
+
+EPAM SYSTEMS PORTUGAL UNIPESSOAL LDA
+
+17-10-2023
+
+17-10-2028
+
+515569950
+
+EQUAÇÃO DILIGENTE UNIPESSOAL LTDA
+
+27-04-2023
+
+27-04-2028
+
+516303252
+
+eterna euforia lda
+
+28-09-2021
+
+28-09-2026
+
+516300873
+
+EUROPE IONIC HEALTH DIGITAL TECHNOLOGIES, LDA
+
+21-01-2025
+
+21-01-2030
+
+504827715
+
+Eurotux Informática, SA
+
+02-09-2021
+
+02-09-2026
+
+516856952
+
+Evil Martians Lda
+
+23-06-2022
+
+23-06-2027
+
+515681890
+
+EVIO - ELECTRICAL MOBILITY, SA
+
+14-04-2024
+
+14-04-2029
+
+510421873
+
+EVK Experiences, Unipessoal Lda
+
+09-02-2022
+
+09-02-2027
+
+516364570
+
+EVO PRODUCTS DEVELOPMENT PORTUGAL, UNIPESSOAL LDA
+
+07-10-2021
+
+07-10-2026
+
+507958721
+
+Evoleo technologies, Lda
+
+15-11-2021
+
+15-11-2026
+
+515739677
+
+EVPCONNECT, LDA
+
+20-07-2021
+
+20-07-2026
+
+510231896
+
+Experis Lda
+
+07-01-2022
+
+07-01-2027
+
+514625880
+
+EYE CANDY SOLUTIONS LDA
+
+15-11-2021
+
+15-11-2026
+
+501854371
+
+F3M Information Systems, SA
+
+07-05-2021
+
+07-05-2026
+
+509255310
+
+FABAMAQ Sistemas Informáticos S.A.
+
+21-10-2021
+
+21-10-2026
+
+515713490
+
+FAIRTIQ Portugal, Unipessoal LDA
+
+25-10-2022
+
+25-10-2027
+
+507398505
+
+FARFETCH PORTUGAL - UNIPESSOAL, LDA.
+
+02-09-2021
+
+02-09-2026
+
+515584479
+
+FASTCOMPCHEM, LDA
+
+24-04-2024
+
+24-04-2029
+
+508771862
+
+Feedzai - Consultadoria e Inovação Tecnológica, Lda.
+
+27-04-2021
+
+27-04-2026
+
+516116355
+
+Ferring Service Center
+
+16-03-2023
+
+16-03-2028
+
+514424613
+
+FIDUCIAL INFORMÁTICA - UNIPESSOAL LDA
+
+28-02-2022
+
+28-02-2027
+
+508823617
+
+FINDMORE, S.A.
+
+10-06-2021
+
+10-06-2026
+
+515847160
+
+Finsight Labs, Unipessoal Lda
+
+09-01-2023
+
+09-01-2028
+
+516954539
+
+Five9 Portugal, Unipessoal, Limitada
+
+09-01-2023
+
+09-01-2028
+
+513729887
+
+FOUNDERS FOUNDERS, LDA
+
+22-01-2024
+
+22-01-2029
+
+13-03-2026 19:52:25
+
+5
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+508336775
+
+Frotcom International, SA
+
+11-09-2023
+
+11-09-2028
+
+500646791
+
+Fujitsu Technology Solutions, Lda.
+
+23-06-2022
+
+23-06-2027
+
+515873705
+
+Fundação UNITATE
+
+22-01-2024
+
+22-01-2029
+
+502202351
+
+FUNDILUSA FUNDICOES PORTUGUESAS, LDA.
+
+07-10-2021
+
+07-10-2026
+
+514909439
+
+FUSION FUEL PORTUGAL SA
+
+20-07-2021
+
+20-07-2026
+
+516065114
+
+FUTURE MEASURES, LDA.
+
+10-11-2022
+
+10-11-2027
+
+516181319
+
+GARIT, S.A.
+
+20-07-2021
+
+20-07-2026
+
+516696564
+
+GAU CONSULTING, LDA (ZONA FRANCA DA MADEIRA)
+
+16-03-2023
+
+16-03-2028
+
+516499181
+
+GBFTSP – Finance and Technology Services Portugal, Unipessoal LDA
+
+29-11-2022
+
+29-11-2027
+
+514743905
+
+GBT SOLUTIONS, LDA.
+
+15-11-2021
+
+15-11-2026
+
+500126321
+
+Geocontrole - Geotecnia e Estruturas de Fundação, SA
+
+25-06-2024
+
+25-06-2029
+
+515466662
+
+GEOMODEL - 3D Modelling Studio, Lda
+
+19-07-2022
+
+19-07-2027
+
+517302322
+
+GETWIFI, LDA.
+
+31-07-2023
+
+31-07-2028
+
+517734184
+
+GIS360 GLOBAL IT SUPPORT
+
+27-08-2024
+
+27-08-2029
+
+514244127
+
+GLARTEK - TECHNOLOGY SOLUTIONS, SA
+
+12-04-2022
+
+12-04-2027
+
+506113124
+
+GLORY GLOBAL SOLUTIONS (PORTUGAL) S.A.
+
+15-11-2021
+
+15-11-2026
+
+514206551
+
+GMT HOSPITALITY, SOCIEDADE UNIPESSOAL LDA
+
+23-05-2021
+
+23-05-2026
+
+514537680
+
+GO INSIDE - Broadcast Media Solutions Lda
+
+02-11-2021
+
+02-11-2026
+
+516815423
+
+GO IT Concept
+
+16-05-2022
+
+16-05-2027
+
+507433572
+
+GO4 MOBILITY - Technology and services for mobility
+
+09-09-2025
+
+09-09-2030
+
+514544210
+
+GOTAS DIGITAIS - LDA
+
+15-02-2022
+
+15-02-2027
+
+507413865
+
+Gotelecom, S.A.
+
+09-03-2022
+
+09-03-2027
+
+514779233
+
+GoTVee - Tecnologias de Informação, Lda.
+
+16-11-2022
+
+16-11-2027
+
+515598968
+
+GoWithFlow SA
+
+29-08-2022
+
+29-08-2027
+
+510899641
+
+GPHIX, Engenharia e Gestão de Projectos, Unipessoal, Lda
+
+09-02-2022
+
+09-02-2027
+
+516535293
+
+GRA NUTRA PORTUGAL, S.A.
+
+27-04-2022
+
+27-04-2027
+
+513542850
+
+GRAPHENEST, S.A.
+
+26-05-2021
+
+26-05-2026
+
+515840335
+
+GREEN DETERMINATION - LDA
+
+20-02-2025
+
+20-02-2030
+
+516487930
+
+Greendialogue LDA
+
+17-01-2024
+
+17-01-2029
+
+517174065
+
+GRESYS HUB, UNIPESSOAL LDA
+
+02-03-2023
+
+02-03-2028
+
+515107468
+
+GROWIN PORTUGAL, UNIPESSOAL LDA
+
+26-07-2021
+
+26-07-2026
+
+513214399
+
+Growininsights,SA
+
+07-05-2021
+
+07-05-2026
+
+514076887
+
+Grünenthal Financial Services
+
+07-05-2021
+
+07-05-2026
+
+505856999
+
+Guisoft - Comércio de Equipamento Informático, Lda
+
+02-12-2021
+
+02-12-2026
+
+514808403
+
+GYMPASS, LDA
+
+19-12-2023
+
+19-12-2028
+
+514890037
+
+Habit Analytics PT, LDA
+
+07-07-2021
+
+07-07-2026
+
+515473871
+
+Hala Systems
+
+28-09-2021
+
+28-09-2026
+
+503470120
+
+HCCM Consulting, SA
+
+08-11-2021
+
+08-11-2026
+
+513491732
+
+Herbumatic Portugal, Lda
+
+26-07-2021
+
+26-07-2026
+
+13-03-2026 19:52:25
+
+6
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+503235903
+
+HHS - Host Hotel Systems Lda
+
+07-07-2021
+
+07-07-2026
+
+517082101
+
+Hi Bob, Unipessoal Lda
+
+25-07-2025
+
+25-07-2030
+
+504518917
+
+Hidroval, Lda.
+
+02-03-2023
+
+02-03-2028
+
+514766875
+
+Hierro & Alves da Cunha, Lda
+
+29-08-2022
+
+29-08-2027
+
+517533910
+
+HIGHCOMET, LDA
+
+15-08-2023
+
+15-08-2028
+
+516138677
+
+HIREFREEHANDS, LDA
+
+04-06-2021
+
+04-06-2026
+
+517938103
+
+HITACHI DIGITAL SERVICES PORTUGAL, UNIPESSOAL, LDA
+
+17-10-2024
+
+17-10-2029
+
+517123797
+
+HORIZONTE, RECURSOS HUMANOS PORTUGAL, UNIPESSOAL LDA
+
+27-04-2023
+
+27-04-2028
+
+500135495
+
+Hovione - Farmaciência, S.A.
+
+04-07-2025
+
+04-07-2030
+
+514709790
+
+HR PLUS - SOLUÇÕES EM TECNOLOGIAS DE INFORMAÇÃO E RECURSOS
+HUMANOS, LDA
+
+15-02-2022
+
+15-02-2027
+
+517525194
+
+ICN Empresa de Investimentos SA
+
+08-02-2024
+
+08-02-2029
+
+515777048
+
+IGNÍT PEOPLE.SA
+
+19-12-2023
+
+19-12-2028
+
+515606561
+
+Ilof - Intelligent Lab On Fiber, Lda
+
+29-08-2022
+
+29-08-2027
+
+509440240
+
+Imaginary Cloud - Unipessoal Lda.
+
+05-04-2021
+
+05-04-2026
+
+516228293
+
+IMPACTLABS, LDA
+
+15-02-2022
+
+15-02-2027
+
+509212956
+
+IMPACTZERO - SOFTWARE UNIPESSOAL LDA
+
+25-10-2022
+
+25-10-2027
+
+517026686
+
+IMPELSYSTECH, UNIPESSOAL LDA
+
+16-03-2023
+
+16-03-2028
+
+514725630
+
+INCOGNIT PERCENTAGE UNIPESSOAL LDA
+
+16-08-2021
+
+16-08-2026
+
+515816795
+
+Incoimbra, Lda.
+
+08-02-2024
+
+08-02-2029
+
+515327484
+
+Indexdestiny Unipessoal Lda
+
+07-10-2021
+
+07-10-2026
+
+515214620
+
+INDIE CAMPERS CENTRAL SERVICES, UNIPESSOAL, LDA
+
+23-06-2022
+
+23-06-2027
+
+513136215
+
+Indigo Leap, Lda
+
+15-08-2023
+
+15-08-2028
+
+516243799
+
+Inductiva Research Labs SA
+
+17-10-2023
+
+17-10-2028
+
+504441361
+
+INESC TEC - Instituto de Engenharia de Sistemas e Computadores, Tecnologia e
+Ciência
+
+22-01-2024
+
+22-01-2029
+
+502726890
+
+INETUM TECH PORTUGAL S.A.
+
+27-04-2021
+
+27-04-2026
+
+513221611
+
+INFINITY GAMES LDA
+
+04-09-2024
+
+04-09-2029
+
+514542357
+
+INFORMATION FACTORY, UNIPESSOAL, LDA
+
+17-10-2025
+
+17-10-2030
+
+513468480
+
+Infraspeak SA
+
+04-02-2025
+
+04-02-2030
+
+510948146
+
+Ingeniarius, Lda
+
+08-11-2021
+
+08-11-2026
+
+517266407
+
+Ingenious Lion, Unipessoal, Lda.
+
+27-04-2023
+
+27-04-2028
+
+510553923
+
+inKlusion Entertainment SA
+
+12-01-2026
+
+12-01-2031
+
+503673307
+
+Innovagency SA
+
+10-06-2021
+
+10-06-2026
+
+508976103
+
+Innovation Makers, consultoria em inovação , LDA
+
+07-01-2022
+
+07-01-2027
+
+508453488
+
+Innowave Technologies S.A.
+
+20-07-2021
+
+20-07-2026
+
+506505260
+
+INOVA DIGITAL TECNOLOGIAS DA INFORMAÇÃO LDA.
+
+15-02-2022
+
+15-02-2027
+
+507297547
+
+Inovaprime, Serviços em Tecnologias de Informação, Lda
+
+28-09-2021
+
+28-09-2026
+
+515770183
+
+INOVENTIC LDA
+
+12-01-2022
+
+12-01-2027
+
+514766786
+
+INSCALE Portugal
+
+17-08-2022
+
+17-08-2027
+
+13-03-2026 19:52:25
+
+7
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+518069117
+
+INTAPP PORTUGAL UNIPESSOAL LDA
+
+20-10-2025
+
+20-10-2030
+
+507969332
+
+Integer Consulting, Sa
+
+29-09-2022
+
+29-09-2027
+
+516851586
+
+INTERACTIVE COMMUNITY ECOMMERCE ENTERPRISES, UNIPESSOAL LDA
+
+10-10-2022
+
+10-10-2027
+
+518344738
+
+IONIC HEALTH PORTUGAL GLOBAL TECHNOLOGIES MANUFACTURER,
+UNIPESSOAL LDA
+
+01-10-2025
+
+01-10-2030
+
+510781624
+
+ISSHO Technology, Lda.
+
+27-04-2021
+
+27-04-2026
+
+508722560
+
+IT People Consultores, SA
+
+19-05-2021
+
+19-05-2026
+
+507843231
+
+ITClinical Lda
+
+12-01-2022
+
+12-01-2027
+
+517038099
+
+ITEALITY PORTUGAL, UNIPESSOAL LDA
+
+11-09-2023
+
+11-09-2028
+
+516607812
+
+ITRTECH CONSULTORIA E TECNOLOGIA, LDA
+
+16-03-2023
+
+16-03-2028
+
+507291727
+
+ITSECTOR - SISTEMAS DE INFORMAÇÃO, S.A.
+
+09-04-2021
+
+09-04-2026
+
+500726353
+
+J. Walter Thompson Publicidade, Unipessoal, Lda.
+
+07-01-2022
+
+07-01-2027
+
+514145170
+
+JOIN US IT LDA
+
+16-08-2021
+
+16-08-2026
+
+508050464
+
+Jolera, Lda.
+
+29-08-2022
+
+29-08-2027
+
+517143100
+
+Joom Unipessoal Lda
+
+08-02-2023
+
+08-02-2028
+
+504496956
+
+JPM Automação e Equipamentos Industriais, S.A.
+
+02-03-2023
+
+02-03-2028
+
+517124351
+
+JSM Fidelização (Portugal), Unipessoal Lda.
+
+13-12-2022
+
+13-12-2027
+
+515546615
+
+JUMO Portugal, Unipessoal Lda.
+
+26-01-2026
+
+26-01-2031
+
+509168930
+
+Jumpseller, LDA.
+
+05-05-2025
+
+05-05-2030
+
+514385502
+
+JUNGLE AI PORTUGAL, LDA
+
+26-07-2021
+
+26-07-2026
+
+508966752
+
+KCS IT, S.A.
+
+15-06-2021
+
+15-06-2026
+
+505817608
+
+Keenfinity SA
+
+07-01-2025
+
+07-01-2030
+
+518111733
+
+KEITA MEDIA, UNIPESSOAL LDA
+
+25-10-2024
+
+25-10-2029
+
+506426009
+
+KEYKNOWLEDGE PEOPLE - CONSULTORIA E TECNOLOGIAS DE
+INFORMAÇÃO SA
+
+13-09-2022
+
+13-09-2027
+
+515888818
+
+KEYRUS CONSULTADORIA PORTUGAL, UNIPESSOAL LDA
+
+29-08-2022
+
+29-08-2027
+
+514689889
+
+KI CHALLENGERS PORTUGAL, UNIPESSOAL LDA
+
+28-02-2022
+
+28-02-2027
+
+515924482
+
+Körber Porto Unipessoal, Lda
+
+08-12-2021
+
+08-12-2026
+
+503799602
+
+Kosangas Portugal Aparelhos para Gás Unipessoal Lda
+
+09-10-2023
+
+09-10-2028
+
+509834370
+
+kSR S.A.
+
+05-04-2021
+
+05-04-2026
+
+514631015
+
+KUALITYTRIBE - CONSULTORIA INFORMATICA LDA
+
+02-12-2022
+
+02-12-2027
+
+516768417
+
+Kuehne + Nagel IT Services S.A.
+
+25-06-2024
+
+25-06-2029
+
+516960644
+
+Kwalee Ltd
+
+27-04-2023
+
+27-04-2028
+
+510336973
+
+KWAN, Lda.
+
+20-03-2021
+
+20-03-2026
+
+516540068
+
+L.S.C.D. - Associação Data Colab - Laboratório Colaborativos para Serviços de
+Inovação Orientados para os Dados
+
+11-11-2022
+
+11-11-2027
+
+516264435
+
+LABSXD PORTUGAL, LDA
+
+25-06-2021
+
+25-06-2026
+
+517440962
+
+LASTLOGIC UNIP LDA
+
+21-04-2025
+
+21-04-2030
+
+516241362
+
+Latitudde, Digital Enablers
+
+08-02-2023
+
+08-02-2028
+
+980698243
+
+Leonteq Securities (Europe) GmbH - Sucursal em Portugal
+
+21-12-2021
+
+21-12-2026
+
+13-03-2026 19:52:25
+
+8
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+508737869
+
+LGG - Trading Company Unipessoal, Lda
+
+04-03-2024
+
+04-03-2029
+
+500266344
+
+Linde Portugal, Lda.
+
+13-12-2021
+
+13-12-2026
+
+504551221
+
+Link Consulting - Tecnologias de Informação SA
+
+13-12-2021
+
+13-12-2026
+
+514957204
+
+LINK TALENTOS UNIPESSOAL LDA
+
+07-01-2022
+
+07-01-2027
+
+506863077
+
+LINKARE TI - Tecnologias de Informação, Lda
+
+26-11-2021
+
+26-11-2026
+
+514910321
+
+LITTHUB LDA
+
+27-04-2023
+
+27-04-2028
+
+510435556
+
+LIVTC Portugal Lda
+
+07-10-2021
+
+07-10-2026
+
+510094880
+
+Load Interactive, Unipessoal Lda.
+
+28-02-2022
+
+28-02-2027
+
+505768674
+
+log.OSCON, lda.
+
+19-05-2021
+
+19-05-2026
+
+513653457
+
+LOQR, S.A.
+
+28-09-2021
+
+28-09-2026
+
+980731275
+
+Lovys Sucursal em Portugal
+
+26-09-2025
+
+26-09-2030
+
+515483508
+
+Lovys Technologies Unipessoal Limitada
+
+16-11-2021
+
+16-11-2026
+
+519079884
+
+LUCIANO REZENDE - UNIPESSOAL, LIMITADA
+
+26-01-2026
+
+26-01-2031
+
+517188252
+
+LUSO QUANTORICO, UNIPESSOAL LDA
+
+27-11-2023
+
+27-11-2028
+
+506263851
+
+Lusospace, Projectos de Engenharia Lda.
+
+26-05-2023
+
+26-05-2028
+
+513117202
+
+Lynxmind, Lda.
+
+09-04-2021
+
+09-04-2026
+
+514440775
+
+M6BC PORT UGAL - CONSULTORIA DE GESTÃO E INFORMÁTICA, LDA
+
+31-01-2022
+
+31-01-2027
+
+516254332
+
+MadManTech
+
+22-01-2024
+
+22-01-2029
+
+516903896
+
+Madpower Lda
+
+26-09-2023
+
+26-09-2028
+
+513140301
+
+MAINFYLD, UNIPESSOAL, LDA
+
+26-09-2025
+
+26-09-2030
+
+505124602
+
+Maio, Carmo & Martins, lda
+
+15-02-2023
+
+15-02-2028
+
+504642251
+
+MATCH PROFILER - CONSULTADORIA E DESENVOLVIMENTO DE SISTEMAS
+DE GESTÃO LDA
+
+21-07-2021
+
+21-07-2026
+
+515823058
+
+MATSWAY, LDA
+
+16-05-2022
+
+16-05-2027
+
+507604350
+
+Mediaweb Creations
+
+31-05-2022
+
+31-05-2027
+
+516917447
+
+MEMBRANA MEDIA UNIPESSOAL LDA
+
+25-10-2023
+
+25-10-2028
+
+514682183
+
+MERCEDES-BENZ.IO PORTUGAL, UNIPESSOAL, LDA.
+
+15-02-2022
+
+15-02-2027
+
+506786625
+
+MESA - Manutenção, Engenharia e Serviços a Aeronaves, Lda
+
+29-11-2022
+
+29-11-2027
+
+509459838
+
+Milestone Consulting SA
+
+21-12-2021
+
+21-12-2026
+
+503857769
+
+Mind - Software Multimédia e Industrial S.A.
+
+19-07-2022
+
+19-07-2027
+
+509371388
+
+Miniclip Portugal Lda
+
+04-06-2021
+
+04-06-2026
+
+515866121
+
+Mitup & Me Consulting, Lda
+
+12-01-2022
+
+12-01-2027
+
+514235691
+
+Mobiweb - Aplicações Informáticas, Lda.
+
+16-05-2022
+
+16-05-2027
+
+510670520
+
+Momentapproach, Lda
+
+25-10-2022
+
+25-10-2027
+
+513263861
+
+Montech Portugal, Unipessoal, Lda.
+
+02-08-2021
+
+02-08-2026
+
+516437755
+
+MOONGY – TEAM IT, S.A.
+
+15-02-2022
+
+15-02-2027
+
+507431073
+
+MOONGY, S.A.
+
+09-04-2021
+
+09-04-2026
+
+515168998
+
+MOVILGES, LDA
+
+31-05-2021
+
+31-05-2026
+
+515862380
+
+Mozantech, Lda
+
+19-07-2022
+
+19-07-2027
+
+508104190
+
+MULTIVISION - Consultoria em Telecomunicações e Informática, Lda.
+
+04-07-2025
+
+04-07-2030
+
+13-03-2026 19:52:25
+
+9
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+516968483
+
+N2 TECHNOLOGY, UNIPESSOAL LDA
+
+16-11-2022
+
+16-11-2027
+
+515560073
+
+N4IT, LDA
+
+09-09-2025
+
+09-09-2030
+
+517028271
+
+Nagarro, Unipessoal Lda.
+
+15-08-2023
+
+15-08-2028
+
+509283950
+
+NBCC Consulting, S.A.
+
+20-07-2021
+
+20-07-2026
+
+510806287
+
+NDBIM UNIPESSOAL, LDA.
+
+19-05-2025
+
+19-05-2030
+
+516088530
+
+Near Sea Technologies, Unipessoal Limitada
+
+15-09-2021
+
+15-09-2026
+
+515277690
+
+NEMOBILE APPLICATIONS WORLDWIDE UNIPESSOAL LDA
+
+18-11-2024
+
+18-11-2029
+
+514238208
+
+Nestlé Business Services Lisbon SA
+
+15-02-2022
+
+15-02-2027
+
+500201307
+
+Nestlé Portugal, Unipessoal, Lda
+
+31-01-2022
+
+31-01-2027
+
+506223515
+
+New Consulting - Information Systems, Lda.
+
+13-07-2023
+
+13-07-2028
+
+514509651
+
+NEW WORK Networking Portugal Unipessoal, LDA
+
+15-11-2021
+
+15-11-2026
+
+516548620
+
+NewFlow, Lda
+
+15-02-2022
+
+15-02-2027
+
+518698807
+
+NEXT BORDER, LDA
+
+09-09-2025
+
+09-09-2030
+
+515162531
+
+NID HUMAN LDA
+
+28-02-2022
+
+28-02-2027
+
+517157721
+
+NIMBERTECH - IT SOLUTIONS, LDA
+
+14-04-2024
+
+14-04-2029
+
+514519592
+
+NMQ Digital Portugal, Unipessoal, Lda
+
+07-10-2021
+
+07-10-2026
+
+505128985
+
+Noesis Portugal - Consultadoria em Sistemas Informáticos SA
+
+20-03-2021
+
+20-03-2026
+
+507834763
+
+NOKIA SOLUTIONS AND NETWORKS PORTUGAL, S.A.
+
+26-09-2023
+
+26-09-2028
+
+507297687
+
+Noniussoft, Software e Consultoria para Telecomunicações, S.A.
+
+26-09-2023
+
+26-09-2028
+
+517563592
+
+NSAINNOVATE LDA
+
+15-08-2023
+
+15-08-2028
+
+507524845
+
+NSEC Sistemas Infromáticos S.A.
+
+26-07-2021
+
+26-07-2026
+
+506204650
+
+NTT DATA Portugal
+
+26-09-2025
+
+26-09-2030
+
+509464513
+
+NUNEX -WORLDWIDE, SA
+
+23-05-2021
+
+23-05-2026
+
+513525564
+
+NU-RISE S.A.
+
+20-07-2021
+
+20-07-2026
+
+514804629
+
+NXT Engineering LDA.
+
+15-09-2021
+
+15-09-2026
+
+516986023
+
+Objectivecrusade-lda
+
+15-02-2023
+
+15-02-2028
+
+500792828
+
+OGMA Industria Aeronautica de Portugal, S.A.
+
+12-01-2022
+
+12-01-2027
+
+517575833
+
+Okrasolar - Soluções energéticas, Unipessoal Lda
+
+12-05-2024
+
+12-05-2029
+
+503169714
+
+Olisipo – Formação e Consultoria em Tecnologias de Informação, S.A.
+
+15-06-2021
+
+15-06-2026
+
+980454492
+
+OLR UK Limited - Sucursal em Portugal
+
+24-03-2025
+
+24-03-2030
+
+508069491
+
+OLX PORTUGAL, SA
+
+21-10-2021
+
+21-10-2026
+
+506631516
+
+Omnidea Lda.
+
+13-04-2021
+
+13-04-2026
+
+509895948
+
+Omniflow, SA
+
+20-03-2025
+
+20-03-2030
+
+514280174
+
+ON RISING, TI PORTUGAL, LDA
+
+27-04-2021
+
+27-04-2026
+
+513007326
+
+Oneasit Solutions, Lda
+
+06-07-2023
+
+06-07-2028
+
+515339997
+
+Opplane Portugal Unipessoal Lda
+
+25-08-2021
+
+25-08-2026
+
+514726962
+
+Opportunity Agreement Unipessoal LDA
+
+26-01-2026
+
+26-01-2031
+
+514695587
+
+OSQUAY, Lda.
+
+22-07-2021
+
+22-07-2026
+
+509285619
+
+Outrider Search Marketing
+
+17-08-2022
+
+17-08-2027
+
+13-03-2026 19:52:25
+
+10
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+504995634
+
+Outsystems - Software em Rede, SA
+
+08-12-2021
+
+08-12-2026
+
+510493319
+
+OZN Technology, Lda
+
+07-07-2021
+
+07-07-2026
+
+516577514
+
+PAGERDUTY PORTUGAL, UNIPESSOAL, LDA
+
+31-05-2022
+
+31-05-2027
+
+517580675
+
+PALARRIGIM - UNIPESSOAL LDA
+
+23-05-2024
+
+23-05-2029
+
+516184814
+
+PANDADOC PT, UNIPESSOAL LDA
+
+08-02-2023
+
+08-02-2028
+
+514116404
+
+Particle Forward LDA
+
+02-11-2021
+
+02-11-2026
+
+510638490
+
+Patentree Lda
+
+16-11-2021
+
+16-11-2026
+
+502980826
+
+PDMFC, SA
+
+04-06-2021
+
+04-06-2026
+
+514218312
+
+PELICANOMOTRIZ - COMÉRCIO DE AUTOMÓVEIS LDA
+
+06-07-2023
+
+06-07-2028
+
+510099998
+
+Performance Sales, Lda
+
+15-06-2021
+
+15-06-2026
+
+516062026
+
+Periplo Innovation, Uni. Lda
+
+27-04-2023
+
+27-04-2028
+
+517075873
+
+Pessoas Magnéticas Lda.
+
+08-02-2023
+
+08-02-2028
+
+517148552
+
+Petals Around - Unipessoal Lda.
+
+15-02-2023
+
+15-02-2028
+
+502199326
+
+PHC SOFTWARE, S.A.
+
+23-06-2022
+
+23-06-2027
+
+515306274
+
+Piauhy Labs Lda
+
+09-08-2021
+
+09-08-2026
+
+509286941
+
+PLATEIA DO APLAUSO, UNIPESSOAL, LDA
+
+08-02-2024
+
+08-02-2029
+
+509848419
+
+PLATFORME MTO, UNIPESSOAL LIMITADA
+
+12-05-2024
+
+12-05-2029
+
+507642554
+
+Polarising, Unipessoal, Lda.
+
+13-12-2022
+
+13-12-2027
+
+515831069
+
+PORTORICA INNOVATION, UNIPESSOAL LDA
+
+18-01-2023
+
+18-01-2028
+
+515177458
+
+PORTOSYS UNIPESSOAL LDA
+
+06-12-2021
+
+06-12-2026
+
+516063430
+
+PORTUGAL SOFT LAND, UNIPESSOAL LDA
+
+17-08-2022
+
+17-08-2027
+
+514790342
+
+Power Dot, S.A.
+
+26-09-2023
+
+26-09-2028
+
+512065330
+
+Powersil - Sistemas Industriais Eletromecânicos, Lda
+
+13-05-2021
+
+13-05-2026
+
+514762632
+
+Pragmatismus Consultoria Lda.
+
+02-11-2021
+
+02-11-2026
+
+504782533
+
+Present Technologies, Serviços Informáticos, Lda
+
+16-05-2022
+
+16-05-2027
+
+506396010
+
+PRIMEIT - CONSULTING, S.A.
+
+25-06-2021
+
+25-06-2026
+
+516393057
+
+PRISMPARADOX - SOCIEDADE POR QUOTAS, LDA
+
+09-09-2025
+
+09-09-2030
+
+508799988
+
+Processware, Soluções Informáticas, SA
+
+21-07-2021
+
+21-07-2026
+
+514420332
+
+PROMPTLY SOFTWARE SOLUTIONS FOR HEALTH MEASURES, SA
+
+22-07-2021
+
+22-07-2026
+
+504276638
+
+Prozis.Tech, S.A
+
+31-05-2021
+
+31-05-2026
+
+516946986
+
+PURPLECHOICE UNIPESSOAL LDA
+
+26-05-2023
+
+26-05-2028
+
+517214458
+
+PURPLEMETHOD, UNIPESSOAL LDA
+
+17-10-2023
+
+17-10-2028
+
+515531979
+
+PWA ART CORPORATION, LDA
+
+02-11-2021
+
+02-11-2026
+
+515690899
+
+Q-TEST PORTUGAL SOFTWARE UNIPESSOAL LDA
+
+17-11-2025
+
+17-11-2030
+
+509937349
+
+Quantico Solutions
+
+19-05-2021
+
+19-05-2026
+
+516884387
+
+QUANTPATIBL, UNIPESSOAL LDA
+
+19-12-2024
+
+19-12-2029
+
+516168959
+
+QuickOps Consulting
+
+07-07-2021
+
+07-07-2026
+
+518051110
+
+Quicktrend Unipessoal Lda
+
+21-04-2025
+
+21-04-2030
+
+501989978
+
+Quidgest - Consultores de Gestão, SA
+
+06-01-2025
+
+06-01-2030
+
+13-03-2026 19:52:25
+
+11
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+508646103
+
+Quorum Born IT, Lda
+
+18-01-2023
+
+18-01-2028
+
+515122270
+
+RANDSTAD DIGITAL PORTUGAL, UNIPESSOAL LDA
+
+25-08-2021
+
+25-08-2026
+
+516903519
+
+Rauva Technology, Unipessoal LDA
+
+27-04-2023
+
+27-04-2028
+
+513556230
+
+RCoders - Desenvolvimento de Software, Sociedade Unipessoal, LDA
+
+27-04-2023
+
+27-04-2028
+
+516585002
+
+REAKTOR, SOCIEDADE UNIPESSOAL LDA
+
+29-11-2022
+
+29-11-2027
+
+516686224
+
+RECHARGE.COM PORTUGAL, UNIPESSOAL LDA
+
+31-05-2022
+
+31-05-2027
+
+509493106
+
+redshift consulting
+
+29-09-2022
+
+29-09-2027
+
+514353520
+
+Redshift II Solutions Lda
+
+29-09-2022
+
+29-09-2027
+
+516572857
+
+Reltio Portugal Lda.
+
+19-12-2023
+
+19-12-2028
+
+515720623
+
+Remote Tech Unipessoal Lda
+
+15-02-2022
+
+15-02-2027
+
+515653489
+
+RESULTFORWARD, LDA
+
+16-05-2022
+
+16-05-2027
+
+980650569
+
+REVOLUT LTD – SUCURSAL EM PORTUGAL
+
+06-07-2023
+
+06-07-2028
+
+517182815
+
+RFTS Portugal, Lda
+
+12-01-2026
+
+12-01-2031
+
+506782328
+
+Ripórtico Engenharia L.da
+
+19-12-2023
+
+19-12-2028
+
+516481975
+
+RIPPLR Unipessoal Lda
+
+21-10-2021
+
+21-10-2026
+
+514043067
+
+RITRED IT, LDA
+
+25-08-2021
+
+25-08-2026
+
+514227060
+
+Rows LDA
+
+20-07-2021
+
+20-07-2026
+
+515652296
+
+SABER3D PORTO, UNIPESSOAL LDA.
+
+29-08-2022
+
+29-08-2027
+
+509643060
+
+SARKKIS - ROBOTICS, LDA
+
+02-06-2023
+
+02-06-2028
+
+517628554
+
+SAVVYISH - UNIPESSOAL LDA
+
+09-09-2025
+
+09-09-2030
+
+980734614
+
+SBM Production Contractors INC. SA. - Sucursal em Portugal
+
+16-05-2022
+
+16-05-2027
+
+514129395
+
+Scorpion Circle - Unipessoal, Lda.
+
+28-09-2021
+
+28-09-2026
+
+513619305
+
+SEEMS POSSIBLE, LDA
+
+25-03-2022
+
+25-03-2027
+
+513978100
+
+SEG Automotive Portugal, Unipessoal, Lda.
+
+04-02-2025
+
+04-02-2030
+
+514160373
+
+Segula Matra Technologies Portugal
+
+02-12-2022
+
+02-12-2027
+
+516743074
+
+SEMEEVS, LDA
+
+15-08-2023
+
+15-08-2028
+
+508910587
+
+Shiji Portugal, SA
+
+04-06-2021
+
+04-06-2026
+
+507902238
+
+Shore Spun Lda
+
+08-11-2021
+
+08-11-2026
+
+510762395
+
+Siemens Logistics, Unipessoal Lda.
+
+07-01-2022
+
+07-01-2027
+
+514750901
+
+Siemens Mobility, Unipessoal Lda.
+
+21-12-2021
+
+21-12-2026
+
+500247480
+
+SIEMENS, S.A.
+
+20-06-2021
+
+20-06-2026
+
+510132006
+
+Silveroak Internet Services Portugal Unipessoal, Lda.
+
+07-05-2021
+
+07-05-2026
+
+514452498
+
+SÍMBOLOS CRISTALINOS - UNIPESSOAL, LDA
+
+29-09-2022
+
+29-09-2027
+
+514197420
+
+SimpleAxis, Lda
+
+27-04-2021
+
+27-04-2026
+
+515629065
+
+Singlestore Portugal, Unipessoal Lda.
+
+08-08-2025
+
+08-08-2030
+
+515960357
+
+SKILLAUGMENT, LDA
+
+08-02-2023
+
+08-02-2028
+
+515703443
+
+Skilser Lda
+
+07-04-2025
+
+07-04-2030
+
+517228165
+
+Slambase, Lda
+
+14-03-2024
+
+14-03-2029
+
+513649328
+
+Slefty, Lda
+
+10-11-2022
+
+10-11-2027
+
+13-03-2026 19:52:25
+
+12
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+513583289
+
+SMARKIO, LDA
+
+29-08-2022
+
+29-08-2027
+
+510522130
+
+SMARTDIGIT UNIPESSOAL LDA
+
+20-06-2021
+
+20-06-2026
+
+515040673
+
+Smartex Europe Unipessoal Lda
+
+17-08-2022
+
+17-08-2027
+
+510465978
+
+SMARTGEO, SOLUTIONS, LDA
+
+27-11-2023
+
+27-11-2028
+
+509364730
+
+SMARTIQ LDA.
+
+25-06-2021
+
+25-06-2026
+
+503835420
+
+SNPS Portugal, Unipessoal, Lda
+
+04-02-2025
+
+04-02-2030
+
+500676020
+
+Socarto - Sociedade de Levantamentos Topo-Cartográficos, Lda
+
+30-11-2023
+
+30-11-2028
+
+503821012
+
+Sociedade Portuguesa de Inovação - C.E.F.I., S.A.
+
+10-06-2021
+
+10-06-2026
+
+980826306
+
+SOFT AND INFORMATICS COMPANY, SUCURSAL
+
+22-01-2025
+
+22-01-2030
+
+516878115
+
+Softkontrast Lda
+
+09-11-2023
+
+09-11-2028
+
+510804098
+
+Softmorphis, Lda.
+
+21-10-2021
+
+21-10-2026
+
+517090724
+
+SOLVEVA PORTUGAL UNIPESSOAL LDA
+
+10-11-2022
+
+10-11-2027
+
+516217127
+
+SOMAÍ PHARMACEUTICALS, UNIPESSOAL LDA
+
+27-04-2023
+
+27-04-2028
+
+513733566
+
+SPARK2D,LDA.
+
+15-11-2021
+
+15-11-2026
+
+515919519
+
+SSLBRAIN, LDA
+
+07-07-2021
+
+07-07-2026
+
+505087723
+
+STAB VIDA Investigação e Serviços em Ciências Biológicas, Lda
+
+24-07-2024
+
+24-07-2029
+
+508206383
+
+Stemmatters, Biotecnologia e Medicina Regenerativa, Lda
+
+21-05-2025
+
+21-05-2030
+
+510318843
+
+STRATIO SA
+
+20-07-2021
+
+20-07-2026
+
+514496568
+
+Strypes Technical Softeare, Unipessoal Lda
+
+04-03-2024
+
+04-03-2029
+
+510647812
+
+Subsea 7 Portugal, Unipessoal Limitada
+
+29-08-2022
+
+29-08-2027
+
+516880080
+
+Sunny Diameter Lda
+
+03-10-2023
+
+03-10-2028
+
+517924145
+
+SWJ Portugal, Engineering Solutions Unipessoal Lda.
+
+25-09-2024
+
+25-09-2029
+
+504729624
+
+Syone SBS Software - Tecnologia e Serviços de Informática, S.A.
+
+21-01-2025
+
+21-01-2030
+
+504665901
+
+SYS-MATCH - CONSULTORES DE SISTEMAS DE INFORMAÇÃO, LIMITADA
+
+27-04-2021
+
+27-04-2026
+
+514480343
+
+TALKDESK INC UNIPESSOAL LTD
+
+21-07-2021
+
+21-07-2026
+
+516048430
+
+TAPPS GAMES - JOGOS ELETRÓNICOS, UNIPESSOAL LDA
+
+29-11-2022
+
+29-11-2027
+
+514225963
+
+TARBASE, UNIPESSOAL, LDA
+
+13-07-2023
+
+13-07-2028
+
+513764267
+
+TeamViewer Portugal Unipessoal Lda.
+
+28-09-2021
+
+28-09-2026
+
+516985590
+
+TECH5, UNIPESSOAL LDA
+
+10-11-2022
+
+10-11-2027
+
+514244372
+
+TECHALTEN PORTUGAL - UNIPESSOAL LDA
+
+26-09-2023
+
+26-09-2028
+
+500171459
+
+Technoedif Engenharia, SA
+
+09-03-2022
+
+09-03-2027
+
+516810146
+
+TECHRIVO TECHNOLOGIES, LDA
+
+03-11-2023
+
+03-11-2028
+
+503245933
+
+TELEPERFORMANCE PORTUGAL S.A.
+
+20-06-2021
+
+20-06-2026
+
+514070102
+
+TEMPTATION KEEPER, LDA
+
+21-12-2021
+
+21-12-2026
+
+517400057
+
+Terrafarmers, Lda
+
+26-09-2025
+
+26-09-2030
+
+516371460
+
+Thaleria Portugal SA
+
+26-09-2023
+
+26-09-2028
+
+516574574
+
+That Made Us Technological Center, Unipessoal
+
+17-08-2022
+
+17-08-2027
+
+516367307
+
+THE BI0 BUR COMPANY - SISTEMAS INDUSTRIAIS DE GERAÇÃO TÉRMICA,
+LDA.
+
+13-12-2022
+
+13-12-2027
+
+514088060
+
+The Code Venture Lda
+
+27-04-2021
+
+27-04-2026
+
+13-03-2026 19:52:25
+
+13
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+515115266
+
+The Members Company Unipessoal. Lda
+
+19-12-2023
+
+19-12-2028
+
+506360237
+
+TIMESTAMP - Sistemas de Informação, S. A.
+
+13-05-2025
+
+13-05-2030
+
+507295960
+
+TIMESTAMP Business Intelligence & Waherousing, Ld.ª
+
+12-06-2025
+
+12-06-2030
+
+507589220
+
+TR105 Unipessoal Lda
+
+20-06-2021
+
+20-06-2026
+
+515297100
+
+Trend4IT Consulting Lda
+
+15-09-2021
+
+15-09-2026
+
+516229524
+
+TRH Remote Technology Services Lda
+
+25-03-2022
+
+25-03-2027
+
+516737082
+
+Tropical Prophecy Unipessoal, LDA
+
+02-03-2023
+
+02-03-2028
+
+510148301
+
+TSED Unipessoal LDA
+
+19-12-2024
+
+19-12-2029
+
+510470157
+
+TWO IMPULSE, LDA.
+
+07-10-2021
+
+07-10-2026
+
+515474436
+
+Typing, Lda.
+
+05-06-2025
+
+05-06-2030
+
+514908688
+
+Ubirider, S.A.
+
+23-06-2022
+
+23-06-2027
+
+514453516
+
+Umarji & Fazila - Teconologia e Consultoria, Lda.
+
+20-07-2021
+
+20-07-2026
+
+510852254
+
+Unbabel Unipessoal, Lda.
+
+10-06-2021
+
+10-06-2026
+
+510401040
+
+UNIKSYSTEM - SISTEMAS DE INFORMAÇÃO, lDA
+
+02-12-2021
+
+02-12-2026
+
+515428515
+
+UNIVERSAL COVER, S.A.
+
+27-04-2022
+
+27-04-2027
+
+517570831
+
+UPDT272 - SOLUÇÕES DE CONSULTORIA E SELEÇÃO EM ENGENHARIA,
+UNIPESSOAL LDA
+
+17-10-2023
+
+17-10-2028
+
+516101986
+
+Ur Moments Developer lda
+
+09-04-2021
+
+09-04-2026
+
+506886468
+
+VALGENESIS PORTUGAL, LDA
+
+04-03-2024
+
+04-03-2029
+
+506614697
+
+Vantis - Tecnologias de Informação, Lda.,
+
+13-12-2021
+
+13-12-2026
+
+514556161
+
+VANTIS II SOFTWARE, LDA
+
+13-05-2025
+
+13-05-2030
+
+515754544
+
+Vasco da Gama CoLAB - Energy Storage - Associação
+
+23-06-2022
+
+23-06-2027
+
+517108364
+
+Veeam Software Portugal, Unipessoal Lda.
+
+27-04-2023
+
+27-04-2028
+
+516919792
+
+Vénia de Sucesso Lda
+
+09-11-2023
+
+09-11-2028
+
+506814050
+
+VESTAS PORTUGAL, LDA
+
+17-08-2022
+
+17-08-2027
+
+518351998
+
+Vex Tech
+
+25-08-2025
+
+25-08-2030
+
+515580929
+
+VEZOA LDA
+
+26-07-2021
+
+26-07-2026
+
+508418518
+
+Via Consulting S.A.
+
+13-12-2021
+
+13-12-2026
+
+980551552
+
+VIGIL365 LIMITED - SUCURSAL EM PORTUGAL
+
+02-08-2021
+
+02-08-2026
+
+506219763
+
+VILT Portugal SA
+
+08-02-2023
+
+08-02-2028
+
+515690708
+
+Vinicius Ramos LDA
+
+02-06-2023
+
+02-06-2028
+
+517293439
+
+VISIBLE IDEAS (EUROPE), UNIPESSOAL LDA
+
+17-10-2023
+
+17-10-2028
+
+516007432
+
+VisionSpace Portugal Unipessoal Lda
+
+24-03-2025
+
+24-03-2030
+
+516847384
+
+Visma Tech Portugal
+
+10-11-2022
+
+10-11-2027
+
+517001861
+
+Visual Nuts Group Lda
+
+18-01-2023
+
+18-01-2028
+
+514746980
+
+Visual Nuts Lda
+
+27-04-2022
+
+27-04-2027
+
+517508729
+
+VITRUVIAN SHIELD - PT, LDA
+
+26-09-2023
+
+26-09-2028
+
+502178370
+
+VML Portugal, Unipessoal Lda
+
+25-10-2024
+
+25-10-2029
+
+514441259
+
+VOID SOFTWARE SA
+
+09-02-2022
+
+09-02-2027
+
+515128171
+
+Volkswagen Digital Solutions, Unipessoal Lda
+
+02-12-2021
+
+02-12-2026
+
+13-03-2026 19:52:25
+
+14
+
+NIF /
+Corporate
+tax number
+
+Designação social /
+Company name
+
+Data de
+certificação /
+Certification
+date
+
+Validade /
+Expiration
+date
+
+516569180
+
+Voxelmaps Labs, Unipessoal Lda
+
+09-03-2022
+
+09-03-2027
+
+514076445
+
+Voxelwolves, Unipessoal Lda
+
+29-08-2022
+
+29-08-2027
+
+517785609
+
+W.A.T. Group, Ld.ª
+
+15-05-2024
+
+15-05-2029
+
+509854419
+
+W4M DIGITAL SOLUTIONS, LIMITADA
+
+14-08-2024
+
+14-08-2029
+
+516483765
+
+WE ARE META, Lda.
+
+02-09-2021
+
+02-09-2026
+
+514879599
+
+Wearein Lda
+
+29-08-2022
+
+29-08-2027
+
+515163724
+
+WEGENBLOCK, LDA
+
+21-10-2021
+
+21-10-2026
+
+515926698
+
+WIIMER - SERVIÇOS DE ANALÍTICA AVANÇADA, UNIPESSOAL LDA.
+
+17-10-2025
+
+17-10-2030
+
+508776058
+
+Winning Scientific Technology
+
+23-06-2022
+
+23-06-2027
+
+507478045
+
+WINPROVIT - SOLUÇÕES INTELIGENTES SA
+
+02-03-2023
+
+02-03-2028
+
+505205939
+
+WIT-Software, Consultoria e Software para a Internet Móvel S.A.
+
+26-11-2021
+
+26-11-2026
+
+517569728
+
+World2Climb IT
+
+28-11-2024
+
+28-11-2029
+
+506677702
+
+Worldit, sistemas de informação lda
+
+15-06-2021
+
+15-06-2026
+
+507812212
+
+Wrightia, SA
+
+23-05-2021
+
+23-05-2026
+
+515559059
+
+Xgeeks Portugal Lda
+
+07-07-2021
+
+07-07-2026
+
+510210589
+
+Xnfinity, Lda
+
+07-10-2021
+
+07-10-2026
+
+509233023
+
+YD Ynvisible SA
+
+18-06-2025
+
+18-06-2030
+
+516499688
+
+YOURDATA HB DIGITALCAMPUS, UNIPESSOAL LDA
+
+08-02-2023
+
+08-02-2028
+
+516238744
+
+Zühlke Engineering
+
+25-06-2021
+
+25-06-2026
+
+509560237
+
+Zumub, S.A.
+
+02-03-2023
+
+02-03-2028
+
+13-03-2026 19:52:25
+
+15
+
+

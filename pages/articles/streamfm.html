@@ -14,7 +14,10 @@
       width: 100%;
       max-width: 800px;
       margin: 0 auto;
-      padding: 4rem clamp(2rem, 5vw, 4rem) 6rem;
+      padding-top: 4rem;
+      padding-bottom: 6rem;
+      padding-left: clamp(2rem, 6vw, 4rem);
+      padding-right: clamp(2rem, 6vw, 4rem);
       box-sizing: border-box;
     }
     .article-header {
@@ -37,7 +40,7 @@
     }
     .article-content {
       font-family: 'Inter', sans-serif;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       line-height: 1.8;
       color: #222;
       overflow-wrap: break-word;
@@ -243,7 +246,7 @@
         
         <p><strong>Next week, I'll be publishing the open-source snippet for the <code>stateRef</code> pattern that saved this project.</strong> Subscribe to get it before I break the WebRTC layer, and follow along as I continue building StreamFM in public.</p>
         
-        <div style="margin-top: 4rem; padding: clamp(1.5rem, 5vw, 2.5rem); background: #000; color: #fff; border: 3px solid #000; box-shadow: none; border-radius: 8px;">
+        <div style="margin-top: 4rem; padding: clamp(1.5rem, 5vw, 2.5rem); background: #000; color: #fff; border: 3px solid #000; box-shadow: none; border-radius: 8px; box-sizing: border-box; width: 100%;">
           <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; text-transform: uppercase;">Get The Drop</h3>
           <p style="font-family: 'Space Mono', monospace; font-size: 0.95rem; margin-bottom: 2rem;">Drop your email to get the open-source <code style="background: #333; color: #e0ff4f; padding: 0.2rem 0.4rem; border-radius: 4px;">stateRef</code> snippet next week before I break the WebRTC layer.</p>
           <form action="https://formspree.io/f/mzdjvoav" method="POST" style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap; width: 100%;">

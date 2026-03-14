@@ -14,7 +14,10 @@
       width: 100%;
       max-width: 800px;
       margin: 0 auto;
-      padding: 4rem clamp(2rem, 5vw, 4rem) 6rem;
+      padding-top: 4rem;
+      padding-bottom: 6rem;
+      padding-left: clamp(2rem, 6vw, 4rem);
+      padding-right: clamp(2rem, 6vw, 4rem);
       box-sizing: border-box;
     }
     .article-header {
@@ -37,7 +40,7 @@
     }
     .article-content {
       font-family: 'Inter', sans-serif;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       line-height: 1.8;
       color: #222;
       overflow-wrap: break-word;
@@ -236,12 +239,12 @@
         
         <p>You no longer manage lines of code; you manage systems, architecture, and intent. And that is how we architect and ship product at the speed of thought.</p>
 
-        <div style="margin-top: 4rem; padding: 2.5rem; background: #000; color: #fff; border: 3px solid #000; box-shadow: none; border-radius: 8px;">
+        <div style="margin-top: 4rem; padding: clamp(1.5rem, 5vw, 2.5rem); background: #000; color: #fff; border: 3px solid #000; box-shadow: none; border-radius: 8px; width: 100%; box-sizing: border-box;">
           <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; text-transform: uppercase;">Get The Drop</h3>
           <p style="font-family: 'Space Mono', monospace; font-size: 0.95rem; margin-bottom: 2rem;">Drop your email to get my latest essays on engineering, AI, and building software, straight to your inbox.</p>
           <form action="https://formspree.io/f/mzdjvoav" method="POST" style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap;">
-            <input type="email" name="email" placeholder="CTO@acme.inc" required style="flex-grow: 1; min-width: 250px; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; outline: none;" />
-            <button type="submit" style="background: #fff; color: #000; border: 3px solid #fff; padding: 0 2.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; cursor: pointer; text-transform: uppercase; border-radius: 4px; white-space: nowrap;">Subscribe</button>
+            <input type="email" name="email" placeholder="CTO@acme.inc" required style="flex-grow: 1; flex-basis: 100%; min-width: 0; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; outline: none; box-sizing: border-box;" />
+            <button type="submit" style="background: #fff; color: #000; border: 3px solid #fff; padding: 1rem 2.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; cursor: pointer; text-transform: uppercase; border-radius: 4px; white-space: nowrap; flex-grow: 1;">Subscribe</button>
           </form>
         </div>
       </div>
