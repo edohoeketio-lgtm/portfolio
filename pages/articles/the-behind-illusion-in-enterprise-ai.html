@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The "Behind" Illusion in Enterprise AI - Maurice</title>
+  <meta name="description" content="Why the tech industry's anxiety of being 'behind' in AI is an illusion when it comes to production systems." />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .article-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 4rem;
+      padding-bottom: 6rem;
+      padding-left: clamp(2rem, 6vw, 4rem);
+      padding-right: clamp(2rem, 6vw, 4rem);
+      box-sizing: border-box;
+    }
+    .article-header {
+      margin-bottom: 4rem;
+    }
+    .article-date {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9rem;
+      color: #666;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    .article-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: calc(clamp(2rem, 4vw, 3rem) - 2px);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    .article-content {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #222;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+    @media (max-width: 640px) {
+      .article-content {
+        font-size: calc(1.2rem - 2px);
+      }
+      .article-container {
+        padding-top: 7rem;
+      }
+    }
+    .article-content h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 4rem 0 1.5rem;
+      letter-spacing: -0.02em;
+    }
+    .article-content h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 2.5rem 0 1rem;
+    }
+    .article-content p {
+      margin-bottom: 1.5rem;
+    }
+    .article-content hr {
+      border: none;
+      border-top: 2px solid #000;
+      margin: 3rem 0;
+    }
+    .article-content ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    .article-content li {
+      margin-bottom: 0.5rem;
+    }
+    .hero-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 2rem 0;
+      border: 2px solid #000;
+      box-shadow: 4px 4px 0 #000;
+    }
+  </style>
+</head>
+<body class="theme-brutalist">
+  <div class="brutalist-layout-container" style="padding: 0; max-width: 100%;">
+    <a href="/pages/articles/index.html" id="home-btn" aria-label="Back to articles" style="display: flex; background: #000; color: #fff; border: none; font-size: 1.2rem;">←</a>
+
+    <article class="article-container">
+      <header class="article-header">
+        <span class="article-date">March 16, 2026</span>
+        <h1 class="article-title">The "Behind" Illusion in Enterprise AI</h1>
+      </header>
+
+      <div class="article-content">
+        <p>The tech industry is currently suffering from a collective syndrome: the persistent anxiety of being "behind" in AI. Every week brings a new foundational model, a novel framework, or a competitor’s glossy press release about their AI-powered future.</p>
+        
+        <p>But when we look at the reality of production systems, we have to ask the question: <em>Behind who?</em></p>
+        
+        <p>As an AI Engineer focused on deploying machine learning systems at scale, I constantly see this anxiety drive poor architectural decisions. Teams rush to implement unproven autonomous agents or haphazardly integrate the latest LLM simply to "catch up."</p>
+        
+        <p>The AI adoption curve is not a single linear track. When we separate research hype from production ML excellence, the concept of being "behind" changes entirely. Here is the technical reality of applied AI:</p>
+
+        <hr>
+
+        <h2>1. SOTA (State of the Art) vs. Production Reliability</h2>
+        
+        <p>Research labs operate on benchmarks; engineering teams operate on SLAs. You aren't "behind" if you aren't using this week's massive foundational model. In production, a smaller, fine-tuned model operating with &gt;99.5% uptime, &lt;100ms inference latency, and predictable unit economics is infinitely more valuable than a state-of-the-art model with unpredictable latency spikes. Safe, reliable batch and real-time inference will always beat cutting-edge instability.</p>
+
+        <hr>
+
+        <h2>2. The Data Infrastructure Moat</h2>
+        
+        <p>Many teams feel behind because they haven't launched a complex RAG (Retrieval-Augmented Generation) system. However, the bottleneck is rarely the vector database or the embedding model—it’s the underlying data architecture. The actual engineering work lies in robust data pipelines: continuous cleaning, semantic chunking strategies, feature engineering, and data validation. If your data foundation is pristine, hot-swapping the inference engine later is trivial.</p>
+
+        <hr>
+
+        <h2>3. The Hidden Cost of the AI "Race"</h2>
+        
+        <p>Deploying an ML model is only 10% of the work. The companies claiming to be "ahead" often completely lack the MLOps infrastructure required for Day-2 operations. True production AI requires model versioning, performance drift detection, bias testing across demographic groups, and automated retraining triggers. Rushing to ship an AI feature without these observability and safety guardrails creates massive technical reporting debt disguised as "innovation."</p>
+
+        <hr>
+
+        <h2>The Engineering Takeaway</h2>
+        
+        <p>Stop measuring your technical progress against the AI hype cycle. In applied machine learning, your capabilities are exactly where your data quality and MLOps maturity allow them to be.</p>
+        
+        <p>Instead of chasing the next framework, focus on practical execution: Solve a specific, measurable business problem. Optimize your data processing throughput. Implement strict privacy-preserving guardrails. Build out your A/B testing pipelines to prove statistical significance in your results.</p>
+        
+        <p>You aren't behind. You're just doing the necessary, uncompromising engineering work that makes AI actually function in the real world.</p>
+
+      </div>
+    </article>
+  </div>
+</body>
+</html>
