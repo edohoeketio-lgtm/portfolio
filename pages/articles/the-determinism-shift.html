@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Probabilistic Minds, Deterministic Hands - Maurice</title>
+  <meta name="description" content="How I rewired my AI workflow in 3 days to stop hallucinatory code." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .article-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 4rem;
+      padding-bottom: 6rem;
+      padding-left: clamp(2rem, 6vw, 4rem);
+      padding-right: clamp(2rem, 6vw, 4rem);
+      box-sizing: border-box;
+    }
+    .article-header {
+      margin-bottom: 4rem;
+    }
+    .article-date {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9rem;
+      color: #666;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    .article-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: calc(clamp(2rem, 4vw, 3rem) - 2px);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    .article-content {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #222;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+    @media (max-width: 640px) {
+      .article-content {
+        font-size: calc(1.2rem - 2px);
+      }
+      .article-container {
+        padding-top: 7rem;
+      }
+    }
+    .article-content h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 4rem 0 1.5rem;
+      letter-spacing: -0.02em;
+    }
+    .article-content p {
+      margin-bottom: 1.5rem;
+    }
+    .article-content pre {
+      background: #111;
+      color: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      max-width: 100%;
+      width: 100%;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin: 2rem 0;
+      box-sizing: border-box;
+      -webkit-overflow-scrolling: touch;
+    }
+    .article-content code {
+      font-family: 'Space Mono', monospace;
+      background: #e0e0e0;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    .article-content pre code {
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+    }
+    .article-content ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    .article-content li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body class="theme-brutalist">
+  <div class="brutalist-layout-container" style="padding: 0; max-width: 100%;">
+    <a href="/pages/articles/index.html" id="home-btn" aria-label="Back to articles" style="display: flex; background: #000; color: #fff; border: none; font-size: 1.2rem;">←</a>
+
+    <article class="article-container">
+      <header class="article-header">
+        <span class="article-date">March 17, 2026</span>
+        <h1 class="article-title">Probabilistic Minds, Deterministic Hands: Rewiring My AI Workflow</h1>
+      </header>
+
+      <div class="article-content">
+        <p>Let's do some quick math. If you're building software entirely with LLMs, and your AI agent is 90% accurate on any given task, what happens when you chain five steps together?</p>
+        
+        <p><code>0.90 ^ 5 = 0.59</code>.</p>
+        
+        <p>Fifty-nine percent. You have a coin flip's chance of getting a working feature at the end of a five-step process. That math is exactly what was driving me crazy over the past few weeks. I was watching agents hallucinate syntax, forget configuration, and break test suites that worked just a few minutes prior.</p>
+
+        <p>Over the last three days, I completely ripped out the foundation of my local development workflow. I stopped treating AI like an intern that writes code, and started treating it as an orchestration layer. It was a metamorphosis that profoundly changed how I approach engineering.</p>
+
+        <h2>The Metamorphosis</h2>
+
+        <p>It started innocently enough. On Saturday, I was refining the layout of a checkout success page. Then I was running automated git history retrospectives for the team. By Monday, I was deep in the weeds pulling in Garry Tan's architectural docs to rebuild my dogfooding setup with <code>gstack</code>. The context-switching was brutal, and relying purely on conversational prompts to get the AI to execute these widely different tasks reliably was failing.</p>
+
+        <p>The core realization hit me while debugging a corrupted laptop BIOS, of all things. I realized that my issue wasn't the AI's "intelligence." I had an impedance mismatch.</p>
+        
+        <p><strong>LLMs are inherently probabilistic. Most business logic and software engineering tasks are strictly deterministic.</strong> Mixing them at the code-generation level is asking for trouble.</p>
+
+        <h2>The 3-Layer Architecture</h2>
+
+        <p>To fix the mismatch, I adopted a strict 3-Layer Architecture. We push the complexity and repetitive tasks into deterministic code, leaving the LLM to do what it does best: reason and route.</p>
+
+<pre><code>[ The 3-Layer Agent Architecture ]
+
+ LAYER 1: 📝 DIRECTIVES (What to do)
+          SOPs in Markdown (`directives/`)
+          Reads like instructions for a human employee.
+                   │
+                   ▼
+ LAYER 2: 🧠 ORCHESTRATION (Decision Making)
+          The LLM (You are here)
+          Reads intent, routes tasks, handles errors.
+                   │
+                   ▼
+ LAYER 3: ⚙️ EXECUTION (Deterministic Tools)
+          Python Scripts (`execution/`)
+          Secure, testable, fast. No hallucinations.
+</code></pre>
+
+        <p>Here's how this plays out in practice:</p>
+
+        <ul>
+            <li><strong>Layer 1 (Directive):</strong> I write a plain-English markdown file that says exactly how to, say, run a system accessibility audit or generate an executive summary. It defines the goals, required inputs, and the strict edge cases.</li>
+            <li><strong>Layer 2 (Orchestration):</strong> The AI reads the directive, understands the context of what I'm asking for, and acts as the project manager. It stops trying to write the implementation from scratch.</li>
+            <li><strong>Layer 3 (Execution):</strong> The AI calls battle-tested, deterministic Python scripts inside an <code>execution/</code> folder. If an API rate limit is hit, the script throws a hard error. The AI catches it, fixes the script if needed, and updates the directive. The system <em>self-anneals</em>.</li>
+        </ul>
+
+        <h2>Zero-Friction Local Development</h2>
+
+        <p>Because the AI is no longer hallucinating random directory structures, I could enforce aggressive physical boundaries in my repo. All intermediate files, scraped data, and temporary outputs go into a <code>.tmp/</code> folder. No exceptions. They are never committed and can be regenerated at will. Deliverables go straight to cloud URLs (Google Sheets, Slides) or remain as pure, version-controlled artifacts.</p>
+
+        <p>By removing the cognitive overhead of "will the AI write this function correctly," I unlocked unparalleled velocity. The AI reads the spec, routes the intent to the Python script, and deterministic magic happens.</p>
+        
+        <p>I stopped wrestling with 59% success rates. It turns out, when you give a probabilistic mind a set of strictly deterministic hands, you can finally build at the speed of thought.</p>
+
+        <div style="margin-top: 4rem; padding: clamp(1.5rem, 5vw, 2.5rem); background: #000; color: #fff; border: 3px solid #000; box-shadow: none; border-radius: 8px; box-sizing: border-box; width: 100%;">
+          <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; text-transform: uppercase;">Get The Drop</h3>
+          <p style="font-family: 'Space Mono', monospace; font-size: 0.95rem; margin-bottom: 2rem;">Drop your email to get early access to tools and engineering insights before anyone else.</p>
+          <form id="subscribe-form" action="https://formspree.io/f/mzdjvoav" method="POST" style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap; width: 100%;">
+            <input type="email" name="email" placeholder="CTO@acme.inc" required style="flex-grow: 1; flex-basis: 100%; min-width: 0; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; outline: none; box-sizing: border-box;" />
+            <button type="submit" style="background: #fff; color: #000; border: 3px solid #fff; padding: 1rem 2.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; cursor: pointer; text-transform: uppercase; border-radius: 4px; white-space: nowrap; flex-grow: 1; box-sizing: border-box;">Subscribe</button>
+          </form>
+          <div id="subscribe-success" style="display: none; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; background: #e0ff4f; color: #000; font-weight: 600;">
+            Thanks for subscribing! Keep an eye on your inbox.
+          </div>
+          <script>
+            {
+              const form = document.getElementById('subscribe-form');
+              const successMessage = document.getElementById('subscribe-success');
+
+              form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const data = new FormData(form);
+                try {
+                  const response = await fetch(form.action, {
+                    method: form.method,
+                    body: data,
+                    headers: { 'Accept': 'application/json' }
+                  });
+                  
+                  if (response.ok) {
+                    form.style.display = 'none';
+                    successMessage.style.display = 'block';
+                  }
+                } catch (error) {
+                  console.error('Subscription failed', error);
+                  alert('Oops! There was a problem submitting your email.');
+                }
+              });
+            }
+          </script>
+        </div>
+
+      </div>
+    </article>
+  </div>
+</body>
+</html>
