@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Cloud is Fast... Sometimes Too Fast - Maurice</title>
+  <meta name="description" content="Tales from the Serverless Trenches about fixing incredibly specific race conditions." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .article-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 4rem;
+      padding-bottom: 6rem;
+      padding-left: clamp(2rem, 6vw, 4rem);
+      padding-right: clamp(2rem, 6vw, 4rem);
+      box-sizing: border-box;
+    }
+    .article-header {
+      margin-bottom: 4rem;
+    }
+    .article-date {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9rem;
+      color: #666;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    .article-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: calc(clamp(2rem, 4vw, 3rem) - 2px);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    .article-content {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #222;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+    @media (max-width: 640px) {
+      .article-content {
+        font-size: calc(1.2rem - 2px);
+      }
+      .article-container {
+        padding-top: 7rem;
+      }
+    }
+    .article-content h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 4rem 0 1.5rem;
+      letter-spacing: -0.02em;
+    }
+    .article-content p {
+      margin-bottom: 1.5rem;
+    }
+    .article-content pre {
+      background: #111;
+      color: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      max-width: 100%;
+      width: 100%;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin: 2rem 0;
+      box-sizing: border-box;
+      -webkit-overflow-scrolling: touch;
+    }
+    .article-content code {
+      font-family: 'Space Mono', monospace;
+      background: #e0e0e0;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    .article-content pre code {
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+    }
+    .article-content ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    .article-content li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body class="theme-brutalist">
+  <div class="brutalist-layout-container" style="padding: 0; max-width: 100%;">
+    <a href="/pages/articles/index.html" id="home-btn" aria-label="Back to articles" style="display: flex; background: #000; color: #fff; border: none; font-size: 1.2rem;">←</a>
+
+    <article class="article-container">
+      <header class="article-header">
+        <span class="article-date">March 18, 2026</span>
+        <h1 class="article-title">The Cloud is Fast... Sometimes Too Fast. Tales from the Serverless Trenches</h1>
+      </header>
+
+      <div class="article-content">
+        <p>There is a special kind of dread every developer knows intuitively. It is the exact moment you deploy a gorgeous, perfectly functioning app from your quiet local computer out into the wild internet, only to watch it inexplicably fall apart.</p>
+        
+        <p>Earlier today, we experienced exactly this. On my local machine, our platform was humming along beautifully. But the moment the code hit our live cloud servers, things got weird.</p>
+
+        <p>The student dashboard started throwing random errors. The AI Copilot, which is usually quite chatty, completely ghosted us. Entire video modules just vanished into thin air. It was a textbook case of the "It works on my machine" curse.</p>
+
+        <p>So, we rolled up our sleeves and went bug hunting.</p>
+
+        <h2>The Phantom Crashes</h2>
+        <p>When an app crashes, it usually leaves a helpful trail of breadcrumbs in the form of an error log telling you exactly what line of code tripped it up. But our errors were scattered, inconsistent, and seemingly completely unrelated. Why would a curriculum calendar failing to load have anything to do with an AI chat bot breaking?</p>
+
+        <p>It turned out, the culprit was not a bug in the features themselves. It was an issue of pure speed.</p>
+
+        <h2>The "Too Many Cooks" Problem</h2>
+        <p>Modern web frameworks are incredibly smart and blazing fast. When you open a dashboard, the framework anticipates where you might click next and starts fetching that data in the background instantly.</p>
+
+        <p>For our application, this meant the dashboard was firing off requests for the calendar, the feed, and the video player all at the exact same millisecond.</p>
+
+        <p>Here is where the trap snapped shut. For testing purposes, we had a fallback system that checks if a user is logged in. If they are not, the system says, "Oh, let me quickly create a generic student account for you so you can see the content."</p>
+
+        <p>Because the cloud is so fast, three different serverless edge functions hit that exact same piece of logic at the exact same millisecond.</p>
+
+        <ul>
+            <li>Function A said: "Creating student account!"</li>
+            <li>Function B said: "Creating student account!"</li>
+            <li>Function C said: "Creating student account!"</li>
+        </ul>
+
+        <p>Function A succeeded beautifully. But milliseconds later, Functions B and C bumped into it, realized an account had just been created, panicked, and threw a massive database constraint error. The entire app jammed like a doorway with too many people trying to rush through it at once.</p>
+
+        <h2>The Bouncer Approach</h2>
+        <p>The fix was surprisingly elegant. We had to change the code from a blunt "Create" database command to an "Upsert" command. Think of "upsert" as an incredibly efficient club bouncer. Instead of blindly trying to create a profile, the code now walks up to the database and says in one, single, uninterrupted motion: "If this user exists, pull their file. If they do not, create it."</p>
+
+        <p>By moving this logic down to a native PostgreSQL upsert, we delegated the locking and race condition management to the database layer. No overlapping. No panic. Just smooth, atomic database operations. Instantly, all the phantom crashes disappeared.</p>
+
+        <h2>The Case of the Missing Green Squares</h2>
+        <p>Just when we thought we were out of the woods, a second mystery popped up. We had been coding all day, pushing massive updates to the repository. But when we checked our source control profile online... zero contributions. Not a single activity square.</p>
+
+        <p>It felt like showing up to a group project presentation only to realize you forgot to put your name on the title slide.</p>
+
+        <p>As it turns out, that is exactly what happened. The local terminal was pushing code under a generic placeholder email (<code>placeholder@local-dev.com</code>). Because modern version control platforms are incredibly strict about mapping code to verified identities, the system happily accepted all our hard work but threw the actual credit into the abyss.</p>
+
+        <p>Fixing this required a bit of time travel. We wrote a <code>git filter-branch</code> script to dig through the entire repository history across all branches. The script located every single generic footprint left by that placeholder email, ripped off the bad nametags, and slapped on our correct, verified identity. One quick global force-push to the matrix later, and our contribution graph lit up with all the well-deserved activity squares.</p>
+
+        <h2>The Takeaway</h2>
+        <p>Building software rarely goes exactly the way you sketch it out on a whiteboard. Sometimes, the cloud is faster than you expect. Sometimes, you forget your nametag.</p>
+
+        <p>But navigating these bizarre, highly specific edge cases is what takes an application from a fragile prototype to a hardened, production ready platform. You do not just build the paved roads. You have to build the guardrails, too.</p>
+
+        <div style="margin-top: 4rem; padding: clamp(1.5rem, 5vw, 2.5rem); background: #000; color: #fff; border: 3px solid #000; box-shadow: none; border-radius: 8px; box-sizing: border-box; width: 100%;">
+          <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; text-transform: uppercase;">Get The Drop</h3>
+          <p style="font-family: 'Space Mono', monospace; font-size: 0.95rem; margin-bottom: 2rem;">Drop your email to get early access to tools and engineering insights before anyone else.</p>
+          <form id="subscribe-form" action="https://formspree.io/f/mzdjvoav" method="POST" style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap; width: 100%;">
+            <input type="email" name="email" placeholder="CTO@acme.inc" required style="flex-grow: 1; flex-basis: 100%; min-width: 0; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; outline: none; box-sizing: border-box;" />
+            <button type="submit" style="background: #fff; color: #000; border: 3px solid #fff; padding: 1rem 2.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; cursor: pointer; text-transform: uppercase; border-radius: 4px; white-space: nowrap; flex-grow: 1; box-sizing: border-box;">Subscribe</button>
+          </form>
+          <div id="subscribe-success" style="display: none; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; background: #e0ff4f; color: #000; font-weight: 600;">
+            Thanks for subscribing! Keep an eye on your inbox.
+          </div>
+          <script>
+            {
+              const form = document.getElementById('subscribe-form');
+              const successMessage = document.getElementById('subscribe-success');
+
+              form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const data = new FormData(form);
+                try {
+                  const response = await fetch(form.action, {
+                    method: form.method,
+                    body: data,
+                    headers: { 'Accept': 'application/json' }
+                  });
+                  
+                  if (response.ok) {
+                    form.style.display = 'none';
+                    successMessage.style.display = 'block';
+                  }
+                } catch (error) {
+                  console.error('Subscription failed', error);
+                  alert('Oops! There was a problem submitting your email.');
+                }
+              });
+            }
+          </script>
+        </div>
+
+      </div>
+    </article>
+  </div>
+</body>
+</html>
