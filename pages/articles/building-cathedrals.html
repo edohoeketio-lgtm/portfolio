@@ -148,6 +148,19 @@
 
         <p><strong>The Architectural Fix:</strong> Implement an "Omni-Access" provider at the highest possible layout tier.</p>
         <p>When a user with elevated privileges authenticates, wrap their session in a context that silently overrides the data-fetching layer itself, ensuring the client <em>never</em> sees a paywall flag.</p>
+
+<pre><code>[ Data Layer: Supabase / Prisma ]
+       |
+       v
++-----------------------------------+
+| Server Component Layout           |
+| (Checks Role: INSTRUCTOR?)        |
++-----------------------------------+
+       |
+       |--&gt; [ IF YES: Override isLocked = false, Inject Faculty Ribbon ]
+       |--&gt; [ IF NO:  Respect standard drip schedule ]
+       v
+[ Dumb UI Components ] -&gt; Renders purely based on passed props. No auth logic.</code></pre>
         <p>To prevent "omni-access blindness"—where the staff member forgets what a <em>real</em> user can actually see—you inject a persistent, high-contrast <strong>"Omni-Access Mode"</strong> ribbon globally into the DOM. This protects the component logic from becoming polluted with authorization checks, completely separates the concern of rendering from the concern of access, and provides a foolproof UX for internal teams.</p>
 
         <h2>The Takeaway</h2>
