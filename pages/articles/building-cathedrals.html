@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stop Building Prototypes, Start Building Cathedrals - Maurice</title>
+  <meta name="description" content="3 Engineering Habits That Separate Seniors from Hackers" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .article-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 4rem;
+      padding-bottom: 6rem;
+      padding-left: clamp(2rem, 6vw, 4rem);
+      padding-right: clamp(2rem, 6vw, 4rem);
+      box-sizing: border-box;
+    }
+    .article-header {
+      margin-bottom: 4rem;
+    }
+    .article-date {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9rem;
+      color: #666;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    .article-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: calc(clamp(2rem, 4vw, 3rem) - 2px);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    .article-content {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #222;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+    @media (max-width: 640px) {
+      .article-content {
+        font-size: calc(1.2rem - 2px);
+      }
+      .article-container {
+        padding-top: 7rem;
+      }
+    }
+    .article-content h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 4rem 0 1.5rem;
+      letter-spacing: -0.02em;
+    }
+    .article-content p {
+      margin-bottom: 1.5rem;
+    }
+    .article-content pre {
+      background: #111;
+      color: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      max-width: 100%;
+      width: 100%;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin: 2rem 0;
+      box-sizing: border-box;
+      -webkit-overflow-scrolling: touch;
+    }
+    .article-content code {
+      font-family: 'Space Mono', monospace;
+      background: #e0e0e0;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    .article-content pre code {
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+    }
+    .article-content ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    .article-content li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body class="theme-brutalist">
+  <div class="brutalist-layout-container" style="padding: 0; max-width: 100%;">
+    <a href="/pages/articles/index.html" id="home-btn" aria-label="Back to articles" style="display: flex; background: #000; color: #fff; border: none; font-size: 1.2rem;">←</a>
+
+    <article class="article-container">
+      <header class="article-header">
+        <span class="article-date">March 22, 2026</span>
+        <h1 class="article-title">Stop Building Prototypes, Start Building Cathedrals</h1>
+      </header>
+
+      <div class="article-content">
+        <p>If you’ve ever inherited a massive React or Next.js codebase written by a hyper-caffeinated startup team trying to find product-market fit, you know the feeling. The feature velocity was initially incredible, but six months later, the repository feels like walking through an active minefield.</p>
+
+        <p>Every new pull request breaks three unrelated layouts. Route groups are fragmented. And the database authentication hooks look like a bowl of spaghetti.</p>
+
+        <p>Scaling an application isn't just about microservices or edge computing; it's fundamentally about <strong>codebase hygiene and architectural discipline</strong>. Here are three non-negotiable engineering habits that instantly signal to a CTO that a developer isn't just a hacker, but a true systems architect.</p>
+
+        <h2>1. The Anti-XL-Commit Mandate</h2>
+
+        <p>There is a moment in every junior developer's life where they proudly push a commit titled <code>fixed bugs and updated UI</code>, containing 84 modified files, database schema migrations, and new component layouts.</p>
+        <p>To a Senior Engineer, an XL commit is a liability.</p>
+
+        <p>If that deployment accidentally causes a massive hydration error in production, how do you revert the UI change without also reverting the critical database migration that was bundled with it? You can't.</p>
+
+        <p><strong>The Solution:</strong> Treat your version control history as an atomic narrative.</p>
+        <ul>
+            <li>Break your work into granular, surgical commits: <code>chore: extract root migration scripts</code>, <code>refactor(routing): consolidate fragmented onboarding routes</code>.</li>
+            <li>If a bug surfaces in QA, you can cleanly <code>git revert</code> the exact UI component failure without destroying the data layer updates. It demonstrates that you code defensively and respect the CI/CD pipeline.</li>
+        </ul>
+
+        <h2>2. Surgical Tech Debt Euthanasia</h2>
+        <p>Codebases accumulate "ghost towns"—files that were imported once, abandoned after a pivot, and left to rot. In modern SSR frameworks like Next.js, fragmented route groupings (e.g., leaving a duplicate <code>app/(portal)/onboarding</code> alongside <code>app/onboarding</code>) don't just pollute the folder structure; they create fatal layout-inheritance bugs where context providers inexplicably drop state.</p>
+        
+        <p>Top-tier engineers don't guess what's dead. They use rigorous topological auditing tools (like <code>knip</code>) to map the dependency graph and identify orphaned modules, unlisted dependencies, and stranded APIs.</p>
+        
+        <p>When you do clean up, you don't just "kind of" delete things. You extract root-level utility scripts into isolated archive directories and mercilessly shred disconnected components. Less surface area equals fewer attack vectors, faster compilation times, and zero cognitive overhead for the next engineer onboarding to the project.</p>
+
+        <h2>3. The "Omni-Access" RBAC Pattern</h2>
+        <p>One of the hardest transitional phases in a SaaS product is moving from a binary <code>User vs. Admin</code> authorization state to complex Role-Based Access Control (RBAC).</p>
+        
+        <p>A classic trap is the "Impersonation Dilemma." Imagine a platform with complex progression locks, paywalls, or drip-fed curriculum. When staff or content creators need to QA the application, developers often hard-code bypasses into dozens of individual UI components: <code>if (isLocked && user.role !== 'INSTRUCTOR')</code>.</p>
+        
+        <p>This is how React components become unreadable.</p>
+
+        <p><strong>The Architectural Fix:</strong> Implement an "Omni-Access" provider at the highest possible layout tier.</p>
+        <p>When a user with elevated privileges authenticates, wrap their session in a context that silently overrides the data-fetching layer itself, ensuring the client <em>never</em> sees a paywall flag.</p>
+        <p>To prevent "omni-access blindness"—where the staff member forgets what a <em>real</em> user can actually see—you inject a persistent, high-contrast <strong>"Omni-Access Mode"</strong> ribbon globally into the DOM. This protects the component logic from becoming polluted with authorization checks, completely separates the concern of rendering from the concern of access, and provides a foolproof UX for internal teams.</p>
+
+        <h2>The Takeaway</h2>
+        <p>Writing code that works is the baseline. Writing code that can be safely modified, audited, and maintained by a team of twenty engineers three years from now is the actual job.</p>
+        
+        <p>By enforcing granular version control, maintaining a merciless stance against dead topologies, and designing authentication state holistically rather than conditionally, you stop acting like a hacker trying to make the compiler happy, and start acting like an architect building a cathedral.</p>
+        
+        <div style="margin-top: 4rem; padding: clamp(1.5rem, 5vw, 2.5rem); background: #000; color: #fff; border: 3px solid #000; box-shadow: none; border-radius: 8px; box-sizing: border-box; width: 100%;">
+          <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; text-transform: uppercase;">Get The Drop</h3>
+          <p style="font-family: 'Space Mono', monospace; font-size: 0.95rem; margin-bottom: 2rem;">Drop your email to get early access to tools and engineering insights before anyone else.</p>
+          <form id="subscribe-form" action="https://formspree.io/f/mzdjvoav" method="POST" style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap; width: 100%;">
+            <input type="email" name="email" placeholder="CTO@acme.inc" required style="flex-grow: 1; flex-basis: 100%; min-width: 0; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; outline: none; box-sizing: border-box;" />
+            <button type="submit" style="background: #fff; color: #000; border: 3px solid #fff; padding: 1rem 2.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; cursor: pointer; text-transform: uppercase; border-radius: 4px; white-space: nowrap; flex-grow: 1; box-sizing: border-box;">Subscribe</button>
+          </form>
+          <div id="subscribe-success" style="display: none; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; background: #e0ff4f; color: #000; font-weight: 600;">
+            Thanks for subscribing! Keep an eye on your inbox.
+          </div>
+          <script>
+            {
+              const form = document.getElementById('subscribe-form');
+              const successMessage = document.getElementById('subscribe-success');
+
+              form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const data = new FormData(form);
+                try {
+                  const response = await fetch(form.action, {
+                    method: form.method,
+                    body: data,
+                    headers: { 'Accept': 'application/json' }
+                  });
+                  
+                  if (response.ok) {
+                    form.style.display = 'none';
+                    successMessage.style.display = 'block';
+                  }
+                } catch (error) {
+                  console.error('Subscription failed', error);
+                  alert('Oops! There was a problem submitting your email.');
+                }
+              });
+            }
+          </script>
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
