@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stitching a React App Into a Live Webflow Site - Maurice</title>
+  <meta name="description" content="A case study in bridging two ecosystems that were never designed to talk to each other." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .article-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 4rem;
+      padding-bottom: 6rem;
+      padding-left: clamp(2rem, 6vw, 4rem);
+      padding-right: clamp(2rem, 6vw, 4rem);
+      box-sizing: border-box;
+    }
+    .article-header {
+      margin-bottom: 4rem;
+    }
+    .article-date {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9rem;
+      color: #666;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    .article-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: calc(clamp(2rem, 4vw, 3rem) - 2px);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    .article-content {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #222;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+    @media (max-width: 640px) {
+      .article-content {
+        font-size: calc(1.2rem - 2px);
+      }
+      .article-container {
+        padding-top: 7rem;
+      }
+    }
+    .article-content h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 4rem 0 1.5rem;
+      letter-spacing: -0.02em;
+    }
+    .article-content h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 2.5rem 0 1rem;
+      letter-spacing: -0.01em;
+    }
+    .article-content p {
+      margin-bottom: 1.5rem;
+    }
+    .article-content pre {
+      background: #111;
+      color: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      max-width: 100%;
+      width: 100%;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin: 2rem 0;
+      box-sizing: border-box;
+      -webkit-overflow-scrolling: touch;
+    }
+    .article-content code {
+      font-family: 'Space Mono', monospace;
+      background: #e0e0e0;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    .article-content pre code {
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+    }
+    .article-content ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    .article-content li {
+      margin-bottom: 0.5rem;
+    }
+    .article-content strong {
+      font-weight: 600;
+    }
+    .article-content em {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body class="theme-brutalist">
+  <div class="brutalist-layout-container" style="padding: 0; max-width: 100%;">
+    <a href="/pages/articles/index.html" id="home-btn" aria-label="Back to articles" style="display: flex; background: #000; color: #fff; border: none; font-size: 1.2rem;">←</a>
+
+    <article class="article-container">
+      <header class="article-header">
+        <span class="article-date">March 23, 2026</span>
+        <h1 class="article-title">How I Stitched a React App Into a Live Webflow Site and Lived to Tell the Tale</h1>
+      </header>
+
+      <div class="article-content">
+        <p><em>A case study in bridging two ecosystems that were never designed to talk to each other.</em></p>
+
+        <p>You know that moment when a client says, <em>"We love our Webflow site. We love the React app you built. Now make them feel like one thing"</em>?</p>
+
+        <p>Yeah. That was my Tuesday.</p>
+
+        <p>Here is what I learned shipping a full React application inside a Webflow marketing site, complete with cross-domain navigation, multi-role Google authentication, and the kind of routing bugs that make you question your career choices at 11 PM.</p>
+
+        <h2>The Problem (It's Always a "Simple" Request)</h2>
+
+        <p>The client had two worlds:</p>
+
+        <ul>
+          <li><strong>A Webflow marketing site</strong>, beautiful, polished, running their main domain. Landing pages, blog, the works.</li>
+          <li><strong>A React application</strong>, a feature-rich platform living on a subdomain, handling user dashboards, marketplace features, and authentication.</li>
+        </ul>
+
+        <p>The ask? Build a brand-new marketing page in React (with custom components, dynamic feature sections, and interactive CTAs), then seamlessly embed it inside Webflow so visitors could not tell where one platform ended and the other began.</p>
+
+        <p>Oh, and also: update the navigation across five different role-based nav bars, add Google OAuth buttons to their sign-up and login flows, and make every link work perfectly no matter which domain the user happened to be on.</p>
+
+        <p><em>Simple.</em></p>
+
+        <h2>The Architecture That Actually Worked</h2>
+
+        <p>After exploring (and discarding) several approaches, we landed on a hybrid strategy that I would genuinely use again:</p>
+
+        <p><strong>Webflow</strong> remained the source of truth for the marketing shell: header, footer, navigation, and global styling. <strong>React</strong> handled the heavy-lifting content component, compiled to static assets and hosted on Vercel as a CDN.</p>
+
+        <p>The integration point was absurdly elegant: a single <code>&lt;div id="root"&gt;&lt;/div&gt;</code> embedded inside a Webflow HTML Embed component, with the compiled CSS and JavaScript loaded via custom code injection in the page settings.</p>
+
+        <pre><code>Webflow Page
+├── Native Header (Webflow component)
+├── HTML Embed: &lt;div id="root"&gt;&lt;/div&gt;
+│   └── React App mounts here
+│       ├── Hero Section
+│       ├── Feature Grid
+│       ├── Testimonials
+│       └── CTA Section
+└── Native Footer (Webflow component)</code></pre>
+
+        <p>The result? The React content renders inside the Webflow wrapper. Users see one continuous, cohesive page. The CMS team keeps full control of the nav and footer. The development team keeps full control of the interactive content. Everyone wins.</p>
+
+        <h2>Three Bugs That Taught Me Something</h2>
+
+        <h3>1. The White Screen of Nothing</h3>
+
+        <p>First deploy: total white screen. No errors, no warnings, just... nothing.</p>
+
+        <p>The culprit? <code>BrowserRouter</code>. When your React app thinks it lives at <code>/</code> but Webflow is serving it at <code>/customer-solutions</code>, the router silently fails to match any routes. Switching to <code>HashRouter</code> fixed it instantly. The hash-based routing (<code>/#/</code>) operates independently of the server-side URL path.</p>
+
+        <p><strong>Lesson:</strong> When embedding a React app inside another platform's URL structure, <code>HashRouter</code> is not a compromise. It is the correct tool.</p>
+
+        <h3>2. The Invisible Images</h3>
+
+        <p>Second deploy: page loads beautifully, but every image is broken. All the relative paths (<code>/Assets/Hero.png</code>) were resolving against the Webflow domain, not the Vercel deployment where the images actually lived.</p>
+
+        <p>The fix was converting every image reference to an absolute URL pointing to the Vercel deployment. Not glamorous, but bulletproof.</p>
+
+        <p><strong>Lesson:</strong> In cross-domain embedding, <em>nothing is relative</em>. Be explicit about every asset path.</p>
+
+        <h3>3. The 404 That Only Happened Half the Time</h3>
+
+        <p>The "Solutions" navigation link worked perfectly on the marketing site but threw a 404 when clicked from inside the app subdomain. Why? Because <code>internal page</code> links in Webflow append the path to whatever domain you are currently on.</p>
+
+        <p>On <code>www.domain.com</code> → goes to <code>www.domain.com/customer-solutions</code> ✅</p>
+        <p>On <code>app.domain.com</code> → goes to <code>app.domain.com/customer-solutions</code> ❌</p>
+
+        <p>The solution: external URLs. Instead of linking to an internal Webflow page, the nav link uses the full absolute URL. Now it works from any domain.</p>
+
+        <p><strong>Lesson:</strong> Multi-domain sites need absolute navigation links. Internal page references are a trap.</p>
+
+        <h2>The Google Auth Integration</h2>
+
+        <p>The final piece was adding Google OAuth buttons to the sign-up and login flows, directly inside Webflow's visual editor, without touching the backend.</p>
+
+        <p>The approach:</p>
+        <ul>
+          <li><strong>Sign Up page</strong>: A styled Link Block containing the Google logo and "Sign up with Google" text, pointing to the OAuth endpoint with the appropriate <code>role_id</code> parameter baked into the URL.</li>
+          <li><strong>Sign In page</strong>: Same component, different URL, different label ("Continue with Google").</li>
+          <li><strong>Multiple user roles</strong>: Separate sign-up pages for different account types (buyer vs. seller), each with their own Google OAuth URL carrying a distinct role identifier.</li>
+        </ul>
+
+        <p>No backend changes. No OAuth library. Just a well-constructed URL and a good-looking button. Sometimes the simplest solution is the right one.</p>
+
+        <h2>What I Would Do Differently</h2>
+
+        <p><strong>Build a deployment script.</strong> Every Vercel deploy generates new hashed filenames for the CSS and JS bundles. That means manually updating two code snippets in Webflow's page settings after every deploy. A simple script that grabs the latest asset filenames and formats them as ready-to-paste HTML would save five minutes every deploy cycle, and eliminate a category of human error entirely.</p>
+
+        <p><strong>Use CSS custom properties for cross-platform color matching.</strong> We manually matched the CTA section's background color to the Webflow footer's color. A shared design token system would make this automatic and maintainable.</p>
+
+        <p><strong>Document the nav bar topology.</strong> The Webflow site had five separate navigation components for different user roles. Discovering this mid-project added unexpected scope. An upfront audit of the component architecture would have surfaced this earlier.</p>
+
+        <h2>The Takeaway</h2>
+
+        <p>The best integrations are not the ones where you rebuild everything in a single stack. They are the ones where you respect what each platform does best and find the thinnest possible seam between them.</p>
+
+        <p>Webflow is exceptional at marketing sites. React is exceptional at interactive applications. The art is in making the handoff invisible.</p>
+
+        <p>And if you are ever staring at a white screen after embedding a React app into a CMS page, check your router first. Trust me.</p>
+
+        <div style="margin-top: 4rem; padding: clamp(1.5rem, 5vw, 2.5rem); background: #000; color: #fff; border: 3px solid #000; box-shadow: none; border-radius: 8px; box-sizing: border-box; width: 100%;">
+          <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; text-transform: uppercase;">Get The Drop</h3>
+          <p style="font-family: 'Space Mono', monospace; font-size: 0.95rem; margin-bottom: 2rem;">Drop your email to get early access to tools and engineering insights before anyone else.</p>
+          <form id="subscribe-form" action="https://formspree.io/f/mzdjvoav" method="POST" style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap; width: 100%;">
+            <input type="email" name="email" placeholder="CTO@acme.inc" required style="flex-grow: 1; flex-basis: 100%; min-width: 0; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; outline: none; box-sizing: border-box;" />
+            <button type="submit" style="background: #fff; color: #000; border: 3px solid #fff; padding: 1rem 2.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; cursor: pointer; text-transform: uppercase; border-radius: 4px; white-space: nowrap; flex-grow: 1; box-sizing: border-box;">Subscribe</button>
+          </form>
+          <div id="subscribe-success" style="display: none; padding: 1.2rem; border: 3px solid #000; font-family: 'Space Mono', monospace; font-size: 1rem; border-radius: 4px; background: #e0ff4f; color: #000; font-weight: 600;">
+            Thanks for subscribing! Keep an eye on your inbox.
+          </div>
+          <script>
+            {
+              const form = document.getElementById('subscribe-form');
+              const successMessage = document.getElementById('subscribe-success');
+
+              form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const data = new FormData(form);
+                try {
+                  const response = await fetch(form.action, {
+                    method: form.method,
+                    body: data,
+                    headers: { 'Accept': 'application/json' }
+                  });
+                  
+                  if (response.ok) {
+                    form.style.display = 'none';
+                    successMessage.style.display = 'block';
+                  }
+                } catch (error) {
+                  console.error('Subscription failed', error);
+                  alert('Oops! There was a problem submitting your email.');
+                }
+              });
+            }
+          </script>
+        </div>
+
+      </div>
+    </article>
+  </div>
+</body>
+</html>
