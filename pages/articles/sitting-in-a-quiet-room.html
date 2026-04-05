@@ -119,6 +119,29 @@
       color: #000;
       text-decoration: underline;
     }
+    .article-share {
+      display: flex;
+      gap: 1rem;
+      margin: 3rem 0 0;
+      flex-wrap: wrap;
+    }
+    .share-btn {
+      background: transparent;
+      color: #000;
+      border: 2px solid #000;
+      padding: 0.6rem 1.2rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9rem;
+      cursor: pointer;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+    .share-btn:hover {
+      background: #000;
+      color: #e0ff4f;
+    }
   </style>
 </head>
 <body class="theme-brutalist">
@@ -163,6 +186,12 @@
         <span class="article-img-caption">"His sadness soon gave way to determination." - From Basho and the Fox. Even the greatest poet in Japanese history had to walk home with a lump in his throat before he could write anything worth reading. "I am a great poet! he told himself."</span>
 
         <p>If you're just trying to keep your head above water while the world spins off its axis right now: you're doing great. Keep going. Take a breath.</p>
+
+        <div class="article-share">
+          <button onclick="window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(document.title)}&url=${encodeURIComponent(window.location.href)}`, '_blank')" class="share-btn">Share on X</button>
+          <button onclick="window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`, '_blank')" class="share-btn">Share on LinkedIn</button>
+          <button onclick="navigator.clipboard.writeText(window.location.href).then(() => { const btn = event.target; const orig = btn.innerText; btn.innerText = 'Copied!'; setTimeout(() => btn.innerText = orig, 2000); })" class="share-btn">Copy Link</button>
+        </div>
 
         <hr class="article-separator" />
         <p class="article-author-note">I write about tech, identity, and staying sane in a noisy world. If this piece sat with you, you might find something else here that does too — <a href="/pages/articles/index.html">explore more writing</a>.</p>
